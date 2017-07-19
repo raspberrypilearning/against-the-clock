@@ -1,17 +1,20 @@
-title: against-the-clock
+---
 hero_image: images/banner.png
-description: against-the-clock description
-original_url: https://codeclubprojects.org/en-GB/scratch/rock-band
-theme: red # possible values: blue, green, navy, orange, red, turquoise, violet, yellow
-duration: 1 # possible values: 1, 2 or 3
+theme: red
+duration: 1
 listed: false
 ingredient: false
 copyedit: false
 curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
-interests: "games, jokes/pranks, music/sound, photography, physical computing, robots, space"
-technologies: "electronics, sense-hat, physical computing, html/css, scratch, python"
-site_areas:
+title: Against the Clock
+description: Make a timer and use it to challenge your friends.
+original_url: https://codeclubprojects.org/en-GB/microbit/against-the-clock
+interests: ''
+technologies: ''
+site_areas: codeclub, microbit
 steps:
-  - title: Introduction
-  - title: What you will need
-  - title: Step title
+- title: Introduction
+- title: Setting up your timer
+- title: Starting and stopping your timer
+- title: 'Challenge: Counting Down'
+
