@@ -10,7 +10,7 @@ Let's set your timer to 0 when buttons A and B are pressed together.
 
 + Add a new `on button pressed event` and select `A+B`:.
 
-	![screenshot](images/clock-a+b.png)
+	![screenshot](images/clock-a-b.png)
 
 + Click the 'Variables' then 'Make a variable', and create a new variable called `time`.
 
