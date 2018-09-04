@@ -1,59 +1,59 @@
-## Introduction
+## Cyflwyniad
 
-You are going to learn how to make a timer, so that you can use it to challenge your friends!
+Rydych chi'n mynd i ddysgu sut i wneud amserydd, fel y gallwch ei ddefnyddio i herio'ch ffrindiau!
 
-**Instructions**: If you're reading this online, press **A+B** on the micro:bit below to set your timer to 0, **A** to start your timer, and **B** to stop it.
+**Cyfarwyddiadau**: Os ydych chi'n darllen hwn ar-lein, pwyswch **A + B** ar y micro:bit isod i osod eich amserydd i 0, **A** i gychwyn eich amserydd, a **B** i'w atal.
 
 <div class="trinket" style="width:400px;margin: 0 auto;">
-<div style="position:relative;height:0;padding-bottom:81.97%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---run?id=55342-38825-28229-57221" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-scripts allow-same-origin" frameborder="0"></iframe></div>
+<div style="position:relative;height:0;padding-bottom:81.97%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="'Cyfrif i lawr' - gan ddefnyddio dolen <0>while</0> (tra) i greu amserydd sy'n cyfrif i lawr nes ei fod yn cyrraedd 0." allowfullscreen="allowfullscreen" sandbox="allow-popups allow-scripts allow-same-origin" frameborder="0"></iframe></div>
 </div>
 
-### Additional information for club leaders
+### Gwybodaeth ychwanegol ar gyfer arweinwyr clwb
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/against-the-clock).
+Os oes angen i chi argraffu'r prosiect hwn, defnyddiiwch y [fersiwn hwylus i'w argraffu](https://projects.raspberrypi.org/en/projects/against-the-clock).
 
 ## \--- collapse \---
 
-## title: Club leader notes
+## title: Nodiadau arweinwyr clwb
 
-## Introduction:
+## Cyflwyniad:
 
-In this project, children will learn how to make a timer, which can be used to challenge their friends!
+Yn y prosiect hwn, bydd y plant yn dysgu sut i wneud amserydd, y gellir ei ddefnyddio i herio eu ffrindiau!
 
-## Resources
+## Adnoddau
 
-For this project, the [MakeCode (PXT)](http://jumpto.cc/pxt-new) microbit editor should be used.
+Ar gyfer y prosiect hwn, dylid defnyddio'r golygydd microbit [MakeCode (PXT)](http://jumpto.cc/pxt-new).
 
-You can find a completed version of this project at [makecode.microbit.org/#pub:55342-38825-28229-57221](https://makecode.microbit.org/#pub:55342-38825-28229-57221), and the compiled .hex file can be downloaded by clicking the 'Download Project Materials' link for this project, which contains:
+Gallwch ddod o hyd i fersiwn wedi'i gwblhau o'r prosiect hwn ar [makecode.microbit.org/#pub:55342-38825-28229-57221 ](https://makecode.microbit.org/#pub:55342-38825-28229-57221), a gellir lawrlwytho'r ffeil .hex trwy glicio ar y ddolen 'Lawrlwytho Deunyddiau Prosiect' ar gyfer y prosiect hwn, sy'n cynnwys:
 
 * microbit-Against-the-Clock.hex
 * microbit-Countdown.hex
 
-## Learning Objectives
+## Amcanion Dysgu
 
-* Repetition (`while` loop);
-* `not` Boolean operator.
+* Ailadrodd (dolen `while` (tra));
+* `not` (nid) Gweithredwr Boole.
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Mae'r prosiect hwn yn cwmpasu elfennau o ffrydiau dilynol y [Cwricwlwm Creu Digidol Raspberry Pi](http://rpf.io/curriculum):
 
-* [Use basic programming constructs to create simple programs.](https://www.raspberrypi.org/curriculum/programming/creator)
+* [Defnyddio lluniadau rhaglennu sylfaenol i greu rhaglenni syml.](https://www.raspberrypi.org/curriculum/programming/creator)
 
-## Challenges
+## Heriau
 
-* "Challenge your friends!" - use the timer to set challenges for others to complete.
-* "Counting Down" - using a `while` loop to create a timer that counts down until it reaches 0.
+* 'Heriwch eich ffrindiau!' – defnyddiwch yr amserydd i osod heriau i eraill eu cwblhau.
+* 'Cyfrif i lawr' - gan ddefnyddio dolen `while` (tra) i greu amserydd sy'n cyfrif i lawr nes ei fod yn cyrraedd 0.
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Project materials
+## title: Deunyddiau prosiect
 
-## Club leader resources
+## Adnoddau arweinwyr clwb
 
-* [online completed project](https://makecode.microbit.org/#pub:55342-38825-28229-57221)
-* [.hex project file to transfer onto your micro:bit](resources/microbit-Against-the-Clock.hex)
-* [online completed "Countdown" challenge](https://makecode.microbit.org/#pub:69636-14914-13941-21768)
-* [.hex file for the completed "Countdown" challenge](resources/microbit-Countdown.hex)
+* [prosiect wedi'i gwblhau ar-lein](https://makecode.microbit.org/#pub:55342-38825-28229-57221)
+* [ffeil prosiect .hex i'w throsglwyddo i'ch micro:bit](resources/microbit-Against-the-Clock.hex)
+* [her 'Countdown' wedi'i gwblhau ar-lein](Adnoddau arweinwyr clwb)
+* [ffeil .hex ar gyfer yr her 'Countdown' wedi'i chwblhau](resources/microbit-Countdown.hex)
 
 \--- /collapse \---
