@@ -1,45 +1,45 @@
-## Starting and stopping your timer
+## Dechrau a stopio eich amserydd
 
-Let's use button A to start your timer, and button B to stop it.
+Gadewch i ni ddefnyddio botwm A i gychwyn eich amserydd, a botwm B i'w atal.
 
-+ Your timer should start when button A is pressed. Add a new `on button A pressed` block to your script:
++ Dylai eich amserydd ddechrau pan fo botwm A yn cael ei wasgu. Ychwanegwch floc newydd `on button A pressed` (botwm A wedi'i bwyso) i'ch sgript:
     
-    ![screenshot](images/clock-a-pressed.png)
+    ![sgrinlun](images/clock-a-pressed.png)
 
-+ The timer should count up as long as button B **has not been pressed**. To do this, first drag a `while` block into your new `on button A pressed` event.
++ Dylai'r amserydd gyfrif i fyny cyhyd â bod botwm B **heb ei wasgu**. I wneud hyn, yn gyntaf llusgwch floc `while` (tra) i mewn i'ch digwyddiad `on button A pressed` (pan wasgir botwm A) newydd.
     
-    ![screenshot](images/clock-while.png)
+    ![sgrinlun](images/clock-while.png)
 
-+ Drag a `not` block, from 'Logic' to your `while` block:
++ Llusgwch floc `not` (nid), o 'Logic' i'ch bloc `while` (tra):
     
-    ![screenshot](images/clock-not.png)
+    ![sgrinlun](images/clock-not.png)
 
-+ You can then drag a `button B pressed` block after the `not` block.
++ Yna gallwch lusgo bloc `button B pressed` (gwasgwyd botwm B) ar ôl y bloc `not` (nid).
     
-    ![screenshot](images/clock-b-pressed.png)
+    ![sgrinlun](images/clock-b-pressed.png)
     
-    Any code inside this `while` loop will be run repeatedly, **as long as button B has not been pressed**.
+    Bydd unrhyw god y tu mewn i'r ddolen `while` (tra) yn cael ei redeg dro ar ôl tro, **cyhyd â bod botwm B heb ei wasgu**.
 
-+ Next, you want to add 1 to your `time` variable every second (1 second = 1000 ms). Add a `pause` block to make your timer wait for 1 second.
++ Nesaf, rydych am ychwanegu 1 at eich newidyn `time` (amser) bob eiliad (1 eiliad = 1000 ms). Ychwanegwch floc `pause` (oedi) i wneud i'ch amserydd aros am 1 eiliad.
     
-    ![screenshot](images/clock-pause.png)
+    ![sgrinlun](images/clock-pause.png)
 
-+ To increase your `time` variable,
++ I gynyddu eich newidyn `time` (amser),
     
-    ![screenshot](images/clock-change-time.png)
+    ![sgrinlun](images/clock-change-time.png)
 
-+ Finally, you'll need to display the updated `time` variable. Here's how your code should look:
++ Yn olaf, bydd angen i chi arddangos y newidyn `time` (amser) wedi'i ddiweddaru. Dyma sut y dylai eich cod ymddangos:
     
-    ![screenshot](images/clock-update.png)
+    ![sgrinlun](images/clock-update.png)
 
-+ Click 'run' to test your code.
++ Cliciwch 'run' (rhedeg) i brofi eich cod.
     
-    + Press buttons A and B together to set your timer to 0
-    + Press button A to start your timer
-    + Press (and hold) button B to stop your timer
+    + Gwasgwch fotymau A a B gyda'i gilydd i osod eich amserydd i 0
+    + Gwasgwch fotwm A i gychwyn eich amserydd
+    + Gwasgwch (a daliwch) fotwm B i atal eich amserydd
     
-    ![screenshot](images/clock-test.png)
+    ![sgrinlun](images/clock-test.png)
 
-## Challenge your friends!
+## Heriwch eich ffrindiau!
 
-Use the timer to challenge your friends. For example, you could see how long it takes them to say the alphabet backwards, or name 10 capital cities.
+Defnyddiwch yr amserydd i herio'ch ffrindiau. Er enghraifft, gallech weld pa mor hir y mae'n cymryd iddynt ddweud yr wyddor am yn ôl, neu enwi 10 prifddinas.
