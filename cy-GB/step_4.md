@@ -1,25 +1,25 @@
 \--- challenge \---
 
-## Challenge: Counting Down
+## Her: Cyfrif i lawr
 
-Can you create a **new** timer, that counts down to 0? Here's how your new timer should work:
+Allwch chi greu amserydd **newydd**, sy'n cyfrif i lawr i 0? Dyma sut y dylai'ch amserydd newydd weithio:
 
-+ Pressing buttons A and B together should reset your `timer` to 0
++ Dylai pwyso botymau A a B gyda'i gilydd ailosod eich `timer` (amserydd) i 0
     
-    ![screenshot](images/clock-challenge-1.png)
+    ![sgrinlun](images/clock-challenge-1.png)
 
-+ Pressing button B should add 1 to your timer. Press it 10 times to create a 10 second timer.
++ Dylai pwyso Botwm B ychwanegu 1 at eich amserydd. Gwasgwch e 10 gwaith i greu amserydd 10 eiliad.
     
-    ![screenshot](images/clock-challenge-2.png)
+    ![sgrinlun](images/clock-challenge-2.png)
 
-+ Pressing button A should take 1 from your `time` variable until it gets to 0. This means you'll need a `while` loop that runs as long as the `time` is greater than (`>`) 0.
++ Dylai gwasgu botwm A dynnu 1 o'ch newidyn `time` (amser) nes ei fod yn cyrraedd 0. Mae hyn yn golygu y bydd angen dolen `while` (tra) arnoch chi sy'n rhedeg cyhyd â bod yr `time` (amser) yn fwy na (`>`) 0.
     
-    ![screenshot](images/clock-challenge-3.png)
+    ![sgrinlun](images/clock-challenge-3.png)
 
-## Accurate timer
+## Amserydd cywir
 
-Have you noticed that the timer isn't very accurate! This is because it takes time to display and scroll numbers on the micro:bit.
+Ydych chi wedi sylwi nad yw'r amserydd yn gywir iawn! Mae hyn oherwydd ei fod yn cymryd amser i arddangos a sgrolio rhifau ar y micro:bit.
 
-Try adjusting the pause to improve the timing. You can use an `if/else` block to have shorter delays for bigger numbers that take longer to scroll.
+Ceisiwch addasu'r saib i wella'r amseriad. Gallwch chi ddefnyddio bloc `if/else` (os/arall) i gael oedi byrrach ar gyfer rhifau mwy sy'n cymryd mwy o amser i'w sgrolio.
 
 \--- /challenge \---
