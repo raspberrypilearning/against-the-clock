@@ -1,29 +1,29 @@
-## Setting up your timer
+## Gosod eich amserydd
 
-Let's set your timer to 0 when buttons A and B are pressed together.
+Gadewch i ni osod eich amserydd i 0 pan fydd botymau A a B yn cael eu gwasgu gyda'i gilydd.
 
-+ Go to <a href="http://jumpto.cc/pxt-new" target="_blank">jumpto.cc/pxt-new</a> to start a new project in the MakeCode (PXT) editor. Name your project 'Timer'.
++ Ewch i <a href="http://jumpto.cc/pxt-new" target="_blank">jumpto.cc/pxt-new</a> i ddechrau prosiect newydd yn y golygydd MakeCode (PXT). Enwch eich prosiect yn 'Amserydd'.
 
-+ Delete the `on start` and `forever` blocks, as you don't need them.
++ Dilëwch y blociau `on start` (ar y cychwyn) a `forever` (am byth), gan nad oes eu hangen arnoch chi.
 
-+ Add a new `on button pressed event` and select `A+B`:.
++ Ychwanegwch ddigwyddiad `on button pressed` (pan wasgir botwm) newydd a dewis `A + B` :.
     
-    ![screenshot](images/clock-a-b.png)
+    ![sgrinlun](images/clock-a-b.png)
 
-+ Click the 'Variables' then 'Make a variable', and create a new variable called `time`.
++ Cliciwch 'Variables' (Newidynnau) yna 'Make a variable' (Gwneud newidyn), ac chreu newidyn newydd o'r enw `time` (amser).
     
-    ![screenshot](images/clock-var-time.png)
+    ![sgrinlun](images/clock-var-time.png)
 
-+ When buttons A and B are pressed together, you want the `time` to be set to `0`. To do this, drag a `set` block into your `on button A+B pressed` block:
++ Pan fydd botymau A a B yn cael eu pwyso gyda'i gilydd, rydych chi am i'r `time` (amser) gael ei osod i `0`. I wneud hyn, llusgwch floc `set` (gosod) i mewn i'ch bloc `on button A+B pressed`:
     
-    ![screenshot](images/clock-reset-1.png)
+    ![sgrinlun](images/clock-reset-1.png)
 
-The default value of zero is what you need.
+Gwerth diofyn sero yw'r hyn sydd ei angen arnoch chi.
 
-+ You should also display the `time`. To do this, drag in a `show number` block and drag your `time` variable into it:
++ Dylech hefyd arddangos yr `time` (amser). I wneud hyn, llusgwch bloc `show number` a llusgwch eich newidyn `time` (amser) i mewn iddo:
     
-    ![screenshot](images/clock-reset-show.png)
+    ![sgrinlun](images/clock-reset-show.png)
 
-+ Click 'run' to test your code. Press the 'A+B' button (below the micro:bit) to set your timer to 0.
++ Cliciwch 'run' (rhedeg) i brofi eich cod. Gwasgwch y botwm 'A + B' (islaw'r micro:bit) i osod eich amserydd i 0.
     
-    ![screenshot](images/clock-test-reset.png)
+    ![sgrinlun](images/clock-test-reset.png)
