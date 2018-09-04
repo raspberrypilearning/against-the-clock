@@ -5,12 +5,12 @@ Rydych chi'n mynd i ddysgu sut i wneud amserydd, fel y gallwch ei ddefnyddio i h
 **Cyfarwyddiadau**: Os ydych chi'n darllen hwn ar-lein, pwyswch **A + B** ar y micro:bit isod i osod eich amserydd i 0, **A** i gychwyn eich amserydd, a **B** i'w atal.
 
 <div class="trinket" style="width:400px;margin: 0 auto;">
-<div style="position:relative;height:0;padding-bottom:81.97%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="'Cyfrif i lawr' - gan ddefnyddio dolen <0>while</0> (tra) i greu amserydd sy'n cyfrif i lawr nes ei fod yn cyrraedd 0." allowfullscreen="allowfullscreen" sandbox="allow-popups allow-scripts allow-same-origin" frameborder="0"></iframe></div>
+<div style="position:relative;height:0;padding-bottom:81.97%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---run?id=55342-38825-28229-57221" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-scripts allow-same-origin" frameborder="0"></iframe></div>
 </div>
 
 ### Gwybodaeth ychwanegol ar gyfer arweinwyr clwb
 
-Os oes angen i chi argraffu'r prosiect hwn, defnyddiiwch y [fersiwn hwylus i'w argraffu](https://projects.raspberrypi.org/en/projects/against-the-clock).
+Os oes angen i chi argraffu'r prosiect hwn, defnyddiiwch y [fersiwn hwylus i'w argraffu](https://projects.raspberrypi.org/cy-GB/projects/against-the-clock/print).
 
 --- collapse ---
 ---
