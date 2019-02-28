@@ -4,7 +4,7 @@ Let's set your timer to 0 when buttons A and B are pressed together.
 
 
 
-+ Go to <a href="http://jumpto.cc/pxt-new" target="_blank">jumpto.cc/pxt-new</a> to start a new project in the MakeCode (PXT) editor. Name your project 'Timer'.
++ Go to <a href="http://rpf.io/microbit-new" target="_blank">rpf.io/microbit-new</a> to start a new project in the MakeCode (PXT) editor. Name your project 'Timer'.
 
 + Delete the `on start` and `forever` blocks, as you don't need them.
 
