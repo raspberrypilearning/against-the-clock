@@ -2,7 +2,7 @@
 
 आइए बटन A और B को एक साथ दबाए जाने पर आपके टाइमर को 0 पर सेट करें।
 
-+ Go to <a href="http://rpf.io/microbit-new" target="_blank">rpf.io/microbit-new</a> to start a new project in the MakeCode (PXT) editor. अपने प्रोजेक्ट को 'टाइमर' नाम दें।
++ MakeCode (PXT) संपादक में एक नया प्रोजेक्ट शुरू करने के लिए <0>rpf.io/microbit-new</0> पर जाएंँ।. अपने प्रोजेक्ट को 'टाइमर' नाम दें।
 
 + `on start` (शुरू करने पर) और `forever` (हमेशा के लिए) ब्लॉक को हटाएँ >, क्योंकि आपको उनकी आवश्यकता नहीं है।
 
