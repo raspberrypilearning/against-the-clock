@@ -1,0 +1,27 @@
+---
+hero_image: images/against-the-clock.png
+theme: फ़िरोज़ी
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+title: सबसे तेज़ करना
+description: एक टाइमर बनाएँ और अपने दोस्तों को चुनौती देने के लिए इसका उपयोग करें।
+original_url: https://codeclubprojects.org/en-GB/microbit/against-the-clock
+interests: गेम
+technologies: microbit
+site_areas: प्रोजेक्ट
+hardware: microbit
+software: ''
+version: 3.0.1
+last_tested: 2019-02-28
+steps:
+  - 
+    title: परिचय
+  - 
+    title: अपना टाइमर सेट अप करना
+  - 
+    title: अपने टाइमर को शुरू करना और रोकना
+  - 
+    title: 'चुनौती: काउंट डाउन करना'
