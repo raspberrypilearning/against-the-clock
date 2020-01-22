@@ -1,25 +1,25 @@
---- challenge ---
-## Défi : Compte à Rebours
-Peux tu créer un __nouveau__ chronomètre, qui compte à rebours jusqu'à 0 ? Voilà comment ton nouveau chronomètre devrait fonctionner&nbsp;:
+\--- challange \---
 
-+ Appuyer sur A et B simultanément doit donner la valeur 10 à ton `temps`
+## Challenge: Counting Down
 
-	![screenshot](images/clock-challenge-1.png)
+Can you create a **new** timer, that counts down to 0? Here's how your new timer should work:
 
-+ Appuyer sur le bouton B doit ajouter 1 à ton chronomètre
++ Pressing buttons A and B together should reset your `timer` to 0
+    
+    ![capture d'écran](images/clock-challenge-1.png)
 
-	![screenshot](images/clock-challenge-2.png)
++ Pressing button B should add 1 to your timer. Press it 10 times to create a 10 second timer.
+    
+    ![screenshot](images/clock-challenge-2.png)
 
-+ Appuyer sur le bouton A doit enlever 1 de ta variable `temps` jusqu'à atteindre 0. Cela signifie que tu auras besoin d'une boucle `lorsque` qui tourne aussi longtemps que `temps` est plus grand que (`>`) 0.
++ Pressing button A should take 1 from your `time` variable until it gets to 0. This means you'll need a `while` loop that runs as long as the `time` is greater than (`>`) 0.
+    
+    ![capture d'écran](images/clock-challenge-3.png)
 
-	![screenshot](images/clock-challenge-3.png)
+## Accurate timer
 
-## Chronomètre de précision 
-As tu remarqué que ton chronomètre n'est pas très précis ? Cela est du au temps nécessaire pour afficher et faire défiler des nombres sur la micro:bit.
+Have you noticed that the timer isn't very accurate! This is because it takes time to display and scroll numbers on the micro:bit.
 
-Essaye d'ajuster la pause pour améliorer le chronométrage. Tu peux utiliser un bloc `si/alors` pour avoir une pause plus courte pour les nombres plus grands qui prennent plus de temps à faire défiler.
+Try adjusting the pause to improve the timing. You can use an `if/else` block to have shorter delays for bigger numbers that take longer to scroll.
 
-
-
-
---- /challenge ---
+\--- /challenge \---
