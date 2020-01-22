@@ -1,0 +1,27 @@
+---
+hero_image: images/against-the-clock.png
+theme: turquoise
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+title: Against the Clock
+description: Make a timer and use it to challenge your friends.
+original_url: https://codeclubprojects.org/en-GB/microbit/against-the-clock
+interests: games
+technologies: microbit
+site_areas: projekty
+hardware: microbit
+software: ''
+version: 3.0.1
+last_tested: 2019-02-28
+steps:
+  - 
+    title: Wprowadzenie
+  - 
+    title: Setting up your timer
+  - 
+    title: Starting and stopping your timer
+  - 
+    title: 'Challenge: Counting Down'
