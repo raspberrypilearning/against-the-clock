@@ -1,29 +1,29 @@
-## Configurer ton chronomètre
+## Setting up your timer
 
-Remettons ton chronomètre à 0 quand les boutons A et B sont pressés simultannément.
+Let's set your timer to 0 when buttons A and B are pressed together.
 
-+ Va sur <a href="http://jumpto.cc/pxt-new" target="_blank">jumpto.cc/pxt-new</a>  pour démarrer un nouveau projet dans l'éditeur PXT. Appelle ton projet 'Chrono'.
++ Go to <a href="http://rpf.io/microbit-new" target="_blank">rpf.io/microbit-new</a> to start a new project in the MakeCode (PXT) editor. Name your project 'Timer'.
 
-+ Efface les blocs `au démarrage` et `toujours`, tu n'en auras pas besoin.
++ Delete the `on start` and `forever` blocks, as you don't need them.
 
-+ Ajoute un bloc `lorsque le bouton est pressé` et sélectionne `A+B`&nbsp;:.
++ Add a new `on button pressed event` and select `A+B`:.
+    
+    ![capture d'écran](images/clock-a-b.png)
 
-	![screenshot](images/clock-a+b.png)
++ Click the 'Variables' then 'Make a variable', and create a new variable called `time`.
+    
+    ![capture d'écran](images/clock-var-time.png)
 
-+ Clique sur 'Variables' puis 'Créer une variable', et crée une nouvelle variable appellée `temps`.
++ When buttons A and B are pressed together, you want the `time` to be set to `0`. To do this, drag a `set` block into your `on button A+B pressed` block:
+    
+    ![screenshot](images/clock-reset-1.png)
 
-	![screenshot](images/clock-var-time.png)
+The default value of zero is what you need.
 
-+ Quand les boutons A et B sont pressés ensemble, tu veux que `temps` ait la valeur `0`. Pour cela, place un bloc `définir` dans ton bloc `lorsque le bouton A+B est pressé`&nbsp;:
++ You should also display the `time`. To do this, drag in a `show number` block and drag your `time` variable into it:
+    
+    ![capture d'écran](images/clock-reset-show.png)
 
-	![screenshot](images/clock-reset-1.png)
-
-La valeur par défaut vaut zéro et c'est ce dont tu as besoin.
-
-+ Tu devrais aussi afficher le `temps`. Pour cela, place un bloc `montrer nombre` et met ta variable `temps` dedans&nbsp;:
-
-	![screenshot](images/clock-reset-show.png)
-
-+ Clique sur 'lancer' pour tester ton code. Appuye sur le bouton 'A+B' (sous la micro:bit) pour mettre ton chronomètre à 0.
-
-	![screenshot](images/clock-test-reset.png)
++ Click 'run' to test your code. Press the 'A+B' button (below the micro:bit) to set your timer to 0.
+    
+    ![capture d'écran](images/clock-test-reset.png)
