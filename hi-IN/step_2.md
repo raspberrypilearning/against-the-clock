@@ -2,7 +2,7 @@
 
 आइए बटन A और B को एक साथ दबाए जाने पर आपके टाइमर को 0 पर सेट करें।
 
-+ Go to <a href="http://rpf.io/microbit-new" target="_blank">rpf.io/microbit-new</a> to start a new project in the MakeCode (PXT) editor. अपने प्रोजेक्ट को 'टाइमर' नाम दें।
++ MakeCode (PXT) संपादक में एक नया प्रोजेक्ट शुरू करने के लिए <a href="http://rpf.io/microbit-new" target="_blank">rpf.io/microbit-new</a> पर जाएंँ। अपने प्रोजेक्ट को 'टाइमर' नाम दें।
 
 + `on start` (शुरू करने पर) और `forever` (हमेशा के लिए) ब्लॉक को हटाएँ >, क्योंकि आपको उनकी आवश्यकता नहीं है।
 
@@ -22,7 +22,7 @@
 
 + आपको `time` (समय) भी प्रदर्शित करना चाहिए। ऐसा करने के लिए, आप `show number` (संख्या दिखाएँ) ब्लॉक को ड्रैग करके उसमें अपना `time` (समय) वेरिएबल ड्रैग करें:
     
-    ![स्क्रीनशॉट](images/clock-reset-show.png)
+    ![screenshot](images/clock-reset-show.png)
 
 + अपने कोड का परीक्षण करने के लिए 'run' (चलाएँ) पर क्लिक करें। अपने टाइमर को 0 पर सेट करने के लिए (micro:bit के नीचे) 'A+B' बटन को दबाएँ।
     
