@@ -10,11 +10,11 @@
 
 ### क्लब लीडरों के लिए अतिरिक्त जानकारी
 
-यदि आप इस प्रोजेक्ट को प्रिंट करना चाहते हैं, तो कृपया [प्रिंटर अनुकूल संस्करण](https://projects.raspberrypi.org/en/projects/against-the-clock) का उपयोग करें।
+If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/against-the-clock/print).
 
 ## \--- collapse \---
 
-## title: क्लब लीडर की टिप्पणियाँtitle:
+## title: क्लब नेता नोट्स
 
 ## परिचय:
 
@@ -24,12 +24,12 @@
 
 इस प्रोजेक्ट के लिए, [MakeCode (PXT)](http://jumpto.cc/pxt-new) माइक्रोबिट संपादक का उपयोग किया जाना चाहिए।
 
-आप इस प्रोजेक्ट का पूर्ण किया गया संस्करण [makecode.microbit.org/#pub:55342-38825-28229-57221](https://makecode.microbit.org/#pub:55342-38825-28229-57221) पर प्राप्त कर सकते हैं, और संकलित .hex फाइल 'प्रोजेक्ट सामग्री डाउनलोड करें' लिंक पर क्लिक करके डाउनलोड की जा सकती है, जिसमे शामिल है:
+आप इस प्रोजेक्ट का पूर्ण किया गया संस्करण [makecode.microbit.org/#pub:55342-38825-28229-57221](https://makecode.microbit.org/#pub:55342-38825-28229-57221) पर प्राप्त कर सकते हैं, और संकलित .hex फाइल 'Download Project Materials' ('प्रोजेक्ट सामग्री डाउनलोड करें') लिंक पर क्लिक करके डाउनलोड की जा सकती है, जिसमें शामिल है:
 
 * microbit-Against-the-Clock.hex
 * microbit-Countdown.hex
 
-## सीखने के उद्देश्य
+## अध्ययन के उद्देश्य
 
 * पुनरावृत्ति (`while` (जबकि) लूप);
 * `not` (नहीं) बूलियन ऑपरेटर।
@@ -49,7 +49,7 @@
 
 ## title: प्रोजेक्ट सामग्री
 
-## क्लब लीडर संसाधन
+## क्लब नेता संसाधन
 
 * [ऑनलाइन पूर्ण प्रोजेक्ट](https://makecode.microbit.org/#pub:55342-38825-28229-57221)
 * [आपके micro:bit पर स्थानांतरित करने के लिए.hex प्रोजेक्ट फ़ाइल](resources/microbit-Against-the-Clock.hex)
