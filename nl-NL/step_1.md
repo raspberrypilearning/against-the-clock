@@ -10,7 +10,7 @@ Je gaat leren hoe je een timer kunt maken, zodat je deze kunt gebruiken om je vr
 
 ### Aanvullende informatie voor clubleiders
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/against-the-clock/print).
+Als je dit project wilt afdrukken, gebruik dan de [Printervriendelijke versie](https://projects.raspberrypi.org/en/projects/against-the-clock/print).
 
 ## \--- collapse \---
 
