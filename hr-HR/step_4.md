@@ -1,25 +1,25 @@
 \--- challenge \---
 
-## Izazov: Odbrojavanje
+## Challenge: Counting Down
 
-Možete li stvoriti **novi** tajmer koji se broji do 0? Evo kako bi trebao raditi vaš novi tajmer:
+Can you create a **new** timer, that counts down to 0? Here's how your new timer should work:
 
-+ Ako zajedno pritisnete gumbe A i B, resetirajte `timer` na 0
++ Pressing buttons A and B together should reset your `timer` to 0
     
     ![screenshot](images/clock-challenge-1.png)
 
-+ Pritiskom na tipku B, treba dodati 1 na tajmer. Pritisnite ga 10 puta da biste stvorili vremenski mjerač od 10 sekundi.
++ Pressing button B should add 1 to your timer. Press it 10 times to create a 10 second timer.
     
     ![screenshot](images/clock-challenge-2.png)
 
-+ Pritiskom na tipku A trebalo bi biti 1 od vaše varijable `time` sve dok ne dođete do 0. To znači da ćete trebati `, dok` petlju da radi sve dok je `puta` je veća od (`>`) 0.
++ Pressing button A should take 1 from your `time` variable until it gets to 0. This means you'll need a `while` loop that runs as long as the `time` is greater than (`>`) 0.
     
     ![screenshot](images/clock-challenge-3.png)
 
-## Točan tajmer
+## Accurate timer
 
-Jeste li primijetili da tajmer nije baš precizan! To je zato što je potrebno vrijeme za prikazivanje i pomicanje brojeva na mikro: bitu.
+Have you noticed that the timer isn't very accurate! This is because it takes time to display and scroll numbers on the micro:bit.
 
-Pokušajte prilagoditi stanku kako biste poboljšali vrijeme. Možete koristiti blok `if / else` za kraća odlaganja za veće brojeve koji traju dulje za pomicanje.
+Try adjusting the pause to improve the timing. You can use an `if/else` block to have shorter delays for bigger numbers that take longer to scroll.
 
 \--- /challenge \---
