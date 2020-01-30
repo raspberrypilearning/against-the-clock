@@ -1,4 +1,4 @@
-## Giới thiệu
+## Introduction
 
 You are going to learn how to make a timer, so that you can use it to challenge your friends!
 
@@ -8,19 +8,19 @@ You are going to learn how to make a timer, so that you can use it to challenge 
 <div style="position:relative;height:0;padding-bottom:81.97%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---run?id=_iRqcVkfXiffq" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-scripts allow-same-origin" frameborder="0"></iframe></div>
 </div>
 
-### Thông tin bổ sung cho lãnh đạo của các câu lạc bộ
+### Additional information for club leaders
 
 If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/against-the-clock/print).
 
-## \--- sụp đổ \---
+## \--- collapse \---
 
-## title: Ghi chú dành cho lãnh đạo câu lạc bộ
+## title: Club leader notes
 
-## Giới thiệu:
+## Introduction:
 
 In this project, children will learn how to make a timer, which can be used to challenge their friends!
 
-## Tài liệu liên quan
+## Resources
 
 For this project, the [MakeCode (PXT)](http://jumpto.cc/pxt-new) microbit editor should be used.
 
@@ -29,27 +29,27 @@ You can find a completed version of this project at [makecode.microbit.org/#pub:
 * microbit-Against-the-Clock.hex
 * microbit-Countdown.hex
 
-## Mục tiêu học tập
+## Learning Objectives
 
 * Repetition (`while` loop);
 * `not` Boolean operator.
 
-Dự án này bao gồm các nội dung sau từ chương trình [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-* [Sử dụng các cấu trúc lập trình cơ bản để tạo các chương trình đơn giản.](https://www.raspberrypi.org/curriculum/programming/creator)
+* [Use basic programming constructs to create simple programs.](https://www.raspberrypi.org/curriculum/programming/creator)
 
-## Thử thách
+## Challenges
 
 * "Challenge your friends!" - use the timer to set challenges for others to complete.
 * "Counting Down" - using a `while` loop to create a timer that counts down until it reaches 0.
 
 \--- /collapse \---
 
-## \--- sụp đổ \---
+## \--- collapse \---
 
-## title: Tài liệu và tài nguyên cho dự án
+## title: Project materials
 
-## Tài liệu và tài nguyên cho lãnh đạo câu lạc bộ
+## Club leader resources
 
 * [online completed project](https://makecode.microbit.org/#pub:55342-38825-28229-57221)
 * [.hex project file to transfer onto your micro:bit](resources/microbit-Against-the-Clock.hex)
