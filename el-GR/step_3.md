@@ -28,7 +28,7 @@ Let's use button A to start your timer, and button B to stop it.
     
     ![screenshot](images/clock-change-time.png)
 
-+ Finally, you'll need to display the updated `time` variable. Έτσι πρέπει να φαίνεται ο κώδικας:
++ Finally, you'll need to display the updated `time` variable. Here's how your code should look:
     
     ![screenshot](images/clock-update.png)
 
