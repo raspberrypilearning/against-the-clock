@@ -8,7 +8,7 @@ Let's set your timer to 0 when buttons A and B are pressed together.
 
 + Add a new `on button pressed event` and select `A+B`:.
     
-    ![скриншот](images/clock-a-b.png)
+    ![screenshot](images/clock-a-b.png)
 
 + Click the 'Variables' then 'Make a variable', and create a new variable called `time`.
     
@@ -16,7 +16,7 @@ Let's set your timer to 0 when buttons A and B are pressed together.
 
 + When buttons A and B are pressed together, you want the `time` to be set to `0`. To do this, drag a `set` block into your `on button A+B pressed` block:
     
-    ![скриншот](images/clock-reset-1.png)
+    ![screenshot](images/clock-reset-1.png)
 
 The default value of zero is what you need.
 
@@ -26,4 +26,4 @@ The default value of zero is what you need.
 
 + Click 'run' to test your code. Press the 'A+B' button (below the micro:bit) to set your timer to 0.
     
-    ![скриншот](images/clock-test-reset.png)
+    ![screenshot](images/clock-test-reset.png)
