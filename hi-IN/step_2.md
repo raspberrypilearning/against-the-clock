@@ -1,29 +1,29 @@
-## अपना टाइमर सेट अप करना
+## Setting up your timer
 
-आइए बटन A और B को एक साथ दबाए जाने पर आपके टाइमर को 0 पर सेट करें।
+Let's set your timer to 0 when buttons A and B are pressed together.
 
-+ MakeCode (PXT) संपादक में एक नया प्रोजेक्ट शुरू करने के लिए <a href="http://rpf.io/microbit-new" target="_blank">rpf.io/microbit-new</a> पर जाएंँ। अपने प्रोजेक्ट को 'टाइमर' नाम दें।
++ Go to <a href="http://rpf.io/microbit-new" target="_blank">rpf.io/microbit-new</a> to start a new project in the MakeCode (PXT) editor. Name your project 'Timer'.
 
-+ `on start` (शुरू करने पर) और `forever` (हमेशा के लिए) ब्लॉक को हटाएँ >, क्योंकि आपको उनकी आवश्यकता नहीं है।
++ Delete the `on start` and `forever` blocks, as you don't need them.
 
-+ एक नया `on button pressed event` (बटन दबाए जाने पर इवेंट) जोड़ें और `A+B` का चयन करें।
++ Add a new `on button pressed event` and select `A+B`:.
     
-    ![स्क्रीनशॉट](images/clock-a-b.png)
+    ![screenshot](images/clock-a-b.png)
 
-+ 'Variables' (वेरिएबल) पर क्लिक करके 'Make a variable' (एक वेरिएबल बनाएँ) पर क्लिक करें, और `time` (समय) नामक एक नया वेरिएबल बनाएँ।
++ Click the 'Variables' then 'Make a variable', and create a new variable called `time`.
     
-    ![स्क्रीनशॉट](images/clock-var-time.png)
+    ![screenshot](images/clock-var-time.png)
 
-+ जब A और B बटन एक साथ दबाए जाते हैं, आप चाहते हैं कि `time` (समय) को `0` पर सेट किया जाए। ऐसा करने के लिए, `set` (सेट करें) ब्लॉक को अपने `on button A+B pressed` (बटन A+B दबाए जाने पर) ब्लॉक में ड्रैग करें:
++ When buttons A and B are pressed together, you want the `time` to be set to `0`. To do this, drag a `set` block into your `on button A+B pressed` block:
     
-    ![स्क्रीनशॉट](images/clock-reset-1.png)
+    ![screenshot](images/clock-reset-1.png)
 
-आपको बस शून्य का डिफ़ॉल्ट मान ही चाहिए।
+The default value of zero is what you need.
 
-+ आपको `time` (समय) भी प्रदर्शित करना चाहिए। ऐसा करने के लिए, आप `show number` (संख्या दिखाएँ) ब्लॉक को ड्रैग करके उसमें अपना `time` (समय) वेरिएबल ड्रैग करें:
++ You should also display the `time`. To do this, drag in a `show number` block and drag your `time` variable into it:
     
     ![screenshot](images/clock-reset-show.png)
 
-+ अपने कोड का परीक्षण करने के लिए 'run' (चलाएँ) पर क्लिक करें। अपने टाइमर को 0 पर सेट करने के लिए (micro:bit के नीचे) 'A+B' बटन को दबाएँ।
++ Click 'run' to test your code. Press the 'A+B' button (below the micro:bit) to set your timer to 0.
     
-    ![स्क्रीनशॉट](images/clock-test-reset.png)
+    ![screenshot](images/clock-test-reset.png)
