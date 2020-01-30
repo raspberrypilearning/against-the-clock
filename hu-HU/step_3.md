@@ -4,7 +4,7 @@ Let's use button A to start your timer, and button B to stop it.
 
 + Your timer should start when button A is pressed. Add a new `on button A pressed` block to your script:
     
-    ![képernyőkép](images/clock-a-pressed.png)
+    ![screenshot](images/clock-a-pressed.png)
 
 + The timer should count up as long as button B **has not been pressed**. To do this, first drag a `while` block into your new `on button A pressed` event.
     
