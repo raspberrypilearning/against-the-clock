@@ -16,7 +16,7 @@ Let's use button A to start your timer, and button B to stop it.
 
 + You can then drag a `button B pressed` block after the `not` block.
     
-    ![schermata](images/clock-b-pressed.png)
+    ![screenshot](images/clock-b-pressed.png)
     
     Any code inside this `while` loop will be run repeatedly, **as long as button B has not been pressed**.
 
@@ -26,11 +26,11 @@ Let's use button A to start your timer, and button B to stop it.
 
 + To increase your `time` variable,
     
-    ![schermata](images/clock-change-time.png)
+    ![screenshot](images/clock-change-time.png)
 
-+ Finally, you'll need to display the updated `time` variable. Il tuo codice dovrebbe essere più o meno così:
++ Finally, you'll need to display the updated `time` variable. Here's how your code should look:
     
-    ![schermata](images/clock-update.png)
+    ![screenshot](images/clock-update.png)
 
 + Click 'run' to test your code.
     
@@ -38,7 +38,7 @@ Let's use button A to start your timer, and button B to stop it.
     + Press button A to start your timer
     + Press (and hold) button B to stop your timer
     
-    ![schermata](images/clock-test.png)
+    ![screenshot](images/clock-test.png)
 
 ## Challenge your friends!
 
