@@ -1,59 +1,59 @@
-## Uvod
+## Introduction
 
-Naučit ćete kako napraviti tajmer kako biste ga mogli koristiti za izazove svojim prijateljima!
+You are going to learn how to make a timer, so that you can use it to challenge your friends!
 
-**Uputa**: Ako čitate ovaj Internet, pritisnite **A + B** na mikro: malo ispod da biste tajmer postavili na 0, **A** da biste pokrenuli tajmer i **B** da ga zaustavite.
+**Instructions**: If you're reading this online, press **A+B** on the micro:bit below to set your timer to 0, **A** to start your timer, and **B** to stop it.
 
 <div class="trinket" style="width:400px;margin: 0 auto;">
 <div style="position:relative;height:0;padding-bottom:81.97%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---run?id=_iRqcVkfXiffq" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-scripts allow-same-origin" frameborder="0"></iframe></div>
 </div>
 
-### Dodatne informacije za voditelje kluba
+### Additional information for club leaders
 
-Ako želite ispisati ovaj projekt, molimo Vas da koristite [verziju koja je prilagođena za ispis](https://projects.raspberrypi.org/en/projects/against-the-clock/print).
+If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/against-the-clock/print).
 
 ## \--- collapse \---
 
-## title: Bilješke za voditelja kluba
+## title: Club leader notes
 
-## Uvod:
+## Introduction:
 
-U ovom projektu djeca će naučiti kako napraviti tajmer, pomoću kojeg mogu izazvati svoje prijatelje!
+In this project, children will learn how to make a timer, which can be used to challenge their friends!
 
-## Resursi
+## Resources
 
-Za ovaj projekt treba upotrijebiti mikrobitni uređivač [MakeCode (PXT)](http://jumpto.cc/pxt-new).
+For this project, the [MakeCode (PXT)](http://jumpto.cc/pxt-new) microbit editor should be used.
 
-Dovršenu verziju ovog projekta možete pronaći na [makecode.microbit.org/#pub:55342-38825-28229-57221](https://makecode.microbit.org/#pub:55342-38825-28229-57221), a sastavljenu datoteku .hex možete preuzeti klikom na vezu 'Preuzmi projektne materijale' za ovaj projekt , koji sadrži:
+You can find a completed version of this project at [makecode.microbit.org/#pub:55342-38825-28229-57221](https://makecode.microbit.org/#pub:55342-38825-28229-57221), and the compiled .hex file can be downloaded by clicking the 'Download Project Materials' link for this project, which contains:
 
-* microbit-protiv-the-Clock.hex
+* microbit-Against-the-Clock.hex
 * microbit-Countdown.hex
 
-## Ishodi učenja
+## Learning Objectives
 
-* Ponavljanje (`dok` petlja);
-* `ne` Bulov operator.
+* Repetition (`while` loop);
+* `not` Boolean operator.
 
-Ovaj projekt obuhvaća elemente iz sljedećih dijelova [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum) nastavnog plana i programa:
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-* [Korištenje osnova programiranja za izradu jednostavnih programa.](https://www.raspberrypi.org/curriculum/programming/creator)
+* [Use basic programming constructs to create simple programs.](https://www.raspberrypi.org/curriculum/programming/creator)
 
-## Izazovi
+## Challenges
 
-* "Izazovite svoje prijatelje!" - pomoću tajmera za postavljanje izazova za ostale.
-* "Odbrojavanje" - pomoću petlje `dok` za stvaranje odbrojavanja vremena odbrojavanja do 0.
+* "Challenge your friends!" - use the timer to set challenges for others to complete.
+* "Counting Down" - using a `while` loop to create a timer that counts down until it reaches 0.
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Materijali projekta
+## title: Project materials
 
-## Resursi za voditelja kluba
+## Club leader resources
 
-* [online završen projekt](https://makecode.microbit.org/#pub:55342-38825-28229-57221)
-* [.hex projektnu datoteku za prijenos na vaš micro: bit](resources/microbit-Against-the-Clock.hex)
-* [online završen "Countdown" izazov](https://makecode.microbit.org/#pub:69636-14914-13941-21768)
-* [.hex datoteka za dovršeni "Countdown" izazov](resources/microbit-Countdown.hex)
+* [online completed project](https://makecode.microbit.org/#pub:55342-38825-28229-57221)
+* [.hex project file to transfer onto your micro:bit](resources/microbit-Against-the-Clock.hex)
+* [online completed "Countdown" challenge](https://makecode.microbit.org/#pub:69636-14914-13941-21768)
+* [.hex file for the completed "Countdown" challenge](resources/microbit-Countdown.hex)
 
 \--- /collapse \---
