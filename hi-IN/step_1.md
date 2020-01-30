@@ -1,59 +1,59 @@
-## परिचय
+## Introduction
 
-आप सीखने जा रहे हैं कि टाइमर कैसे बनाएँ, ताकि आप इसका अपने दोस्तों को चुनौती देने के लिए उपयोग कर सकें!
+You are going to learn how to make a timer, so that you can use it to challenge your friends!
 
-**निर्देश**: यदि आप इसे ऑनलाइन पढ़ रहे हैं, तो, आप अपने टाइमर को 0 पर सेट करने के लिए नीचे micro:bit पर **A+B** दबाएँ, अपने टाइमर को स्टार्ट करने के लिए **A** दबाएँ, और अपने टाइमर को बंद करने के लिए **B** दबाएँ।
+**Instructions**: If you're reading this online, press **A+B** on the micro:bit below to set your timer to 0, **A** to start your timer, and **B** to stop it.
 
 <div class="trinket" style="width:400px;margin: 0 auto;">
 <div style="position:relative;height:0;padding-bottom:81.97%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---run?id=_iRqcVkfXiffq" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-scripts allow-same-origin" frameborder="0"></iframe></div>
 </div>
 
-### क्लब लीडरों के लिए अतिरिक्त जानकारी
+### Additional information for club leaders
 
 If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/against-the-clock/print).
 
 ## \--- collapse \---
 
-## title: क्लब नेता नोट्स
+## title: Club leader notes
 
-## परिचय:
+## Introduction:
 
-इस प्रोजेक्ट में, बच्चे सीखेंगे कि टाइमर कैसे बनाया जाए, जिसका उपयोग अपने दोस्तों को चुनौती देने के लिए किया जा सकता है!
+In this project, children will learn how to make a timer, which can be used to challenge their friends!
 
-## संसाधन
+## Resources
 
-इस प्रोजेक्ट के लिए, [MakeCode (PXT)](http://jumpto.cc/pxt-new) माइक्रोबिट संपादक का उपयोग किया जाना चाहिए।
+For this project, the [MakeCode (PXT)](http://jumpto.cc/pxt-new) microbit editor should be used.
 
-आप इस प्रोजेक्ट का पूर्ण किया गया संस्करण [makecode.microbit.org/#pub:55342-38825-28229-57221](https://makecode.microbit.org/#pub:55342-38825-28229-57221) पर प्राप्त कर सकते हैं, और संकलित .hex फाइल 'Download Project Materials' ('प्रोजेक्ट सामग्री डाउनलोड करें') लिंक पर क्लिक करके डाउनलोड की जा सकती है, जिसमें शामिल है:
+You can find a completed version of this project at [makecode.microbit.org/#pub:55342-38825-28229-57221](https://makecode.microbit.org/#pub:55342-38825-28229-57221), and the compiled .hex file can be downloaded by clicking the 'Download Project Materials' link for this project, which contains:
 
 * microbit-Against-the-Clock.hex
 * microbit-Countdown.hex
 
-## अध्ययन के उद्देश्य
+## Learning Objectives
 
-* पुनरावृत्ति (`while` (जबकि) लूप);
-* `not` (नहीं) बूलियन ऑपरेटर।
+* Repetition (`while` loop);
+* `not` Boolean operator.
 
-यह प्रोजेक्ट [Raspberry Pi डिजिटल निर्माण पाठ्यक्रम](http://rpf.io/curriculum) के निम्नलिखित तत्वों के पहलुओं को पूरा करता है:
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-* [सरल प्रोग्राम बनाने के लिए आधारभूत संरचनाओं का उपयोग करें।](https://www.raspberrypi.org/curriculum/programming/creator)
+* [Use basic programming constructs to create simple programs.](https://www.raspberrypi.org/curriculum/programming/creator)
 
-## चुनौतियाँ
+## Challenges
 
-* "अपने दोस्तों को चुनौती दें!" - दूसरों द्वारा पूर्ण किए जाने के लिए चुनौतियाँ निर्धारित करने के लिए टाइमर का उपयोग करें।
-* "उलटी गिनती करना" - `while` (जबकि) लूप का उपयोग करके एक ऐसा टाइमर बनाना जो तब तक काउंट डाउन (उलटी गिनती) करता है जब तक वह 0 तक नहीं पहुँच जाता है।
+* "Challenge your friends!" - use the timer to set challenges for others to complete.
+* "Counting Down" - using a `while` loop to create a timer that counts down until it reaches 0.
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: प्रोजेक्ट सामग्री
+## title: Project materials
 
-## क्लब नेता संसाधन
+## Club leader resources
 
-* [ऑनलाइन पूर्ण प्रोजेक्ट](https://makecode.microbit.org/#pub:55342-38825-28229-57221)
-* [आपके micro:bit पर स्थानांतरित करने के लिए.hex प्रोजेक्ट फ़ाइल](resources/microbit-Against-the-Clock.hex)
-* [ऑनलाइन पूर्ण की गई "उलटी गिनती" चुनौती](https://makecode.microbit.org/#pub:69636-14914-13941-21768)
-* [पूर्ण की गई "उलटी गिनती" चुनौती के लिए.hex फ़ाइल](resources/microbit-Countdown.hex)
+* [online completed project](https://makecode.microbit.org/#pub:55342-38825-28229-57221)
+* [.hex project file to transfer onto your micro:bit](resources/microbit-Against-the-Clock.hex)
+* [online completed "Countdown" challenge](https://makecode.microbit.org/#pub:69636-14914-13941-21768)
+* [.hex file for the completed "Countdown" challenge](resources/microbit-Countdown.hex)
 
 \--- /collapse \---
