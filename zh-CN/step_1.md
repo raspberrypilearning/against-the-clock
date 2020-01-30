@@ -1,4 +1,4 @@
-## 简介
+## Introduction
 
 You are going to learn how to make a timer, so that you can use it to challenge your friends!
 
@@ -8,19 +8,19 @@ You are going to learn how to make a timer, so that you can use it to challenge 
 <div style="position:relative;height:0;padding-bottom:81.97%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---run?id=_iRqcVkfXiffq" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-scripts allow-same-origin" frameborder="0"></iframe></div>
 </div>
 
-### 俱乐部导师的附加信息
+### Additional information for club leaders
 
 If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/against-the-clock/print).
 
 ## \--- collapse \---
 
-## title: 俱乐部导师说明
+## title: Club leader notes
 
-## 简介
+## Introduction:
 
 In this project, children will learn how to make a timer, which can be used to challenge their friends!
 
-## 资源
+## Resources
 
 For this project, the [MakeCode (PXT)](http://jumpto.cc/pxt-new) microbit editor should be used.
 
@@ -29,16 +29,16 @@ You can find a completed version of this project at [makecode.microbit.org/#pub:
 * microbit-Against-the-Clock.hex
 * microbit-Countdown.hex
 
-## 学习目标
+## Learning Objectives
 
 * Repetition (`while` loop);
 * `not` Boolean operator.
 
-本项目涵盖[树莓派数字制作课程](http://rpf.io/curriculum)如下几方面内容：
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-* [利用基本编程结构创建简单程序。](https://www.raspberrypi.org/curriculum/programming/creator)
+* [Use basic programming constructs to create simple programs.](https://www.raspberrypi.org/curriculum/programming/creator)
 
-## 挑战
+## Challenges
 
 * "Challenge your friends!" - use the timer to set challenges for others to complete.
 * "Counting Down" - using a `while` loop to create a timer that counts down until it reaches 0.
@@ -47,9 +47,9 @@ You can find a completed version of this project at [makecode.microbit.org/#pub:
 
 ## \--- collapse \---
 
-## title: 项目资源
+## title: Project materials
 
-## 导师资源
+## Club leader resources
 
 * [online completed project](https://makecode.microbit.org/#pub:55342-38825-28229-57221)
 * [.hex project file to transfer onto your micro:bit](resources/microbit-Against-the-Clock.hex)
