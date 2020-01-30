@@ -1,4 +1,4 @@
-\--- desafio \---
+\--- challenge \---
 
 ## Challenge: Counting Down
 
@@ -10,11 +10,11 @@ Can you create a **new** timer, that counts down to 0? Here's how your new timer
 
 + Pressing button B should add 1 to your timer. Press it 10 times to create a 10 second timer.
     
-    ![captura de tela](images/clock-challenge-2.png)
+    ![screenshot](images/clock-challenge-2.png)
 
 + Pressing button A should take 1 from your `time` variable until it gets to 0. This means you'll need a `while` loop that runs as long as the `time` is greater than (`>`) 0.
     
-    ![captura de tela](images/clock-challenge-3.png)
+    ![screenshot](images/clock-challenge-3.png)
 
 ## Accurate timer
 
