@@ -5,23 +5,23 @@ duration: 2
 listed: true
 ingredient: false
 copyedit: false
-curriculum: 1, design-0, programmation-1, phys-comp-0, fabrication-0, communauté-0
-title: Contre la Montre
-description: Construis un chronomètre et utilise le pour défier tes amis.
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+title: Against the Clock
+description: Make a timer and use it to challenge your friends.
 original_url: https://codeclubprojects.org/en-GB/microbit/against-the-clock
 interests: games
 technologies: microbit
-site_areas: projets
+site_areas: projects
 hardware: microbit
 software: ''
-version: 3
-last_tested: 2017-01-01
+version: 3.0.1
+last_tested: 2019-02-28
 steps:
   - 
     title: Introduction
   - 
-    title: Configurer ton chronomètre
+    title: Setting up your timer
   - 
-    title: Démarrer et arrêter ton chronomètre
+    title: Starting and stopping your timer
   - 
-    title: 'Défi : Compte à Rebours'
+    title: 'Challenge: Counting Down'
