@@ -1,45 +1,45 @@
-## Pokretanje i zaustavljanje timera
+## Starting and stopping your timer
 
-Upotrijebimo gumb A za pokretanje vremena, a gumb B za zaustavljanje.
+Let's use button A to start your timer, and button B to stop it.
 
-+ Mjerač vremena trebao bi se pokrenuti kad se pritisne gumb A. Dodajte novi `na gumb Stisnuti` blok u vašu skriptu:
++ Your timer should start when button A is pressed. Add a new `on button A pressed` block to your script:
     
     ![screenshot](images/clock-a-pressed.png)
 
-+ Mjerač vremena trebao bi brojati sve dok tipka B **nije pritisnuta**. Da biste to učinili, prvo povucite blok `dok` u svoj novi gumb `na gumb A pritisnut` događaj.
++ The timer should count up as long as button B **has not been pressed**. To do this, first drag a `while` block into your new `on button A pressed` event.
     
     ![screenshot](images/clock-while.png)
 
-+ Povucite blok `ne` , iz "Logike" u svoj `dok` blok:
++ Drag a `not` block, from 'Logic' to your `while` block:
     
     ![screenshot](images/clock-not.png)
 
-+ Zatim možete povući tipku `pritisnutu na` blok nakon bloka `ne`.
++ You can then drag a `button B pressed` block after the `not` block.
     
     ![screenshot](images/clock-b-pressed.png)
     
-    Bilo koji kôd unutar ove `dok će se` petlja pokrenuti više puta, **sve dok gumb B nije pritisnut**.
+    Any code inside this `while` loop will be run repeatedly, **as long as button B has not been pressed**.
 
-+ Zatim želite dodati 1 svojoj varijabli `time` svake sekunde (1 sekunda = 1000 ms). Dodavanje `pauza` blok kako bi vaš timer čekati na 1 sekundu.
++ Next, you want to add 1 to your `time` variable every second (1 second = 1000 ms). Add a `pause` block to make your timer wait for 1 second.
     
     ![screenshot](images/clock-pause.png)
 
-+ Da biste povećali svoju varijablu `puta`,
++ To increase your `time` variable,
     
     ![screenshot](images/clock-change-time.png)
 
-+ Napokon, morat ćete prikazati ažuriranu varijablu `puta`. Ovako bi tvoj kôd trebao izgledati:
++ Finally, you'll need to display the updated `time` variable. Here's how your code should look:
     
     ![screenshot](images/clock-update.png)
 
-+ Kliknite "Pokreni" da biste testirali svoj kôd.
++ Click 'run' to test your code.
     
-    + Pritisnite gumbe A i B zajedno da postavite tajmer na 0
-    + Pritisnite gumb A da biste pokrenuli tajmer
-    + Pritisnite (i držite) tipku B da biste zaustavili tajmer
+    + Press buttons A and B together to set your timer to 0
+    + Press button A to start your timer
+    + Press (and hold) button B to stop your timer
     
     ![screenshot](images/clock-test.png)
 
-## Izazovite svoje prijatelje!
+## Challenge your friends!
 
-Upotrijebite tajmer da izazovete svoje prijatelje. Na primjer, mogli ste vidjeti koliko im treba da izgovore abecedu unatrag ili imenuju 10 glavnih gradova.
+Use the timer to challenge your friends. For example, you could see how long it takes them to say the alphabet backwards, or name 10 capital cities.
