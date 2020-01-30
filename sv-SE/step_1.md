@@ -1,4 +1,4 @@
-## Inledning
+## Introduction
 
 You are going to learn how to make a timer, so that you can use it to challenge your friends!
 
@@ -16,11 +16,11 @@ If you need to print this project, please use the [Printer friendly version](htt
 
 ## title: Club leader notes
 
-## Introduktion:
+## Introduction:
 
 In this project, children will learn how to make a timer, which can be used to challenge their friends!
 
-## Hjälpmedel
+## Resources
 
 For this project, the [MakeCode (PXT)](http://jumpto.cc/pxt-new) microbit editor should be used.
 
