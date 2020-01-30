@@ -1,29 +1,29 @@
-## Postavljanje vremena
+## Setting up your timer
 
-Postavimo vaš tajmer na 0 kada se gumbi A i B pritisnu zajedno.
+Let's set your timer to 0 when buttons A and B are pressed together.
 
-+ Idite na <a href="http://rpf.io/microbit-new" target="_blank">rpf.io/microbit-new</a> da biste pokrenuli novi projekt u MakeCode (PXT) uređivaču. Nazovite svoj projekt 'Timer'.
++ Go to <a href="http://rpf.io/microbit-new" target="_blank">rpf.io/microbit-new</a> to start a new project in the MakeCode (PXT) editor. Name your project 'Timer'.
 
-+ Izbrišite `na početku` i `zauvijek` bloka jer vam ih ne trebaju.
++ Delete the `on start` and `forever` blocks, as you don't need them.
 
-+ Dodajte novu `na gumb pritisnut slučaju` i odaberite `A + B`.
++ Add a new `on button pressed event` and select `A+B`:.
     
     ![screenshot](images/clock-a-b.png)
 
-+ Kliknite "Varijable", a zatim "Napravite varijablu" i stvorite novu varijablu koja se zove `puta`.
++ Click the 'Variables' then 'Make a variable', and create a new variable called `time`.
     
     ![screenshot](images/clock-var-time.png)
 
-+ Kad se gumbi A i B pritisnu zajedno, želite da se `puta` postavi na `0`. Da biste to učinili, povucite `set` blok u svoj `na gumb A + B pritisne` bloka:
++ When buttons A and B are pressed together, you want the `time` to be set to `0`. To do this, drag a `set` block into your `on button A+B pressed` block:
     
     ![screenshot](images/clock-reset-1.png)
 
-Zadana vrijednost nula ono je što vam treba.
+The default value of zero is what you need.
 
-+ Trebali biste prikazati i `puta`. Da biste to učinili, povucite blok `emisije broj` i uvucite svoju varijablu `puta` u nju:
++ You should also display the `time`. To do this, drag in a `show number` block and drag your `time` variable into it:
     
     ![screenshot](images/clock-reset-show.png)
 
-+ Kliknite "Pokreni" da biste testirali svoj kôd. Pritisnite gumb "A + B" (ispod mikro: bit) da biste tajmer postavili na 0.
++ Click 'run' to test your code. Press the 'A+B' button (below the micro:bit) to set your timer to 0.
     
     ![screenshot](images/clock-test-reset.png)
