@@ -22,7 +22,7 @@ The default value of zero is what you need.
 
 + You should also display the `time`. To do this, drag in a `show number` block and drag your `time` variable into it:
     
-    ![képernyőkép](images/clock-reset-show.png)
+    ![screenshot](images/clock-reset-show.png)
 
 + Click 'run' to test your code. Press the 'A+B' button (below the micro:bit) to set your timer to 0.
     
