@@ -1,45 +1,45 @@
-## अपने टाइमर को शुरू करना और रोकना
+## Starting and stopping your timer
 
-आइए हम आपके टाइमर को शुरू करने के लिए बटन A का उपयोग करें, और इसे रोकने के लिए बटन B का उपयोग करें।
+Let's use button A to start your timer, and button B to stop it.
 
-+ बटन A को दबाने पर आपका टाइमर शुरू होना चाहिए। अपनी स्क्रिप्ट में `on button A pressed` नामक एक नया ब्लॉक जोड़ें:
++ Your timer should start when button A is pressed. Add a new `on button A pressed` block to your script:
     
-    ![स्क्रीनशॉट](images/clock-a-pressed.png)
+    ![screenshot](images/clock-a-pressed.png)
 
-+ जब तक बटन B को **दबाया नहीं जाता है ** तब तक टाइमर को गिनना जारी रखना चाहिए। ऐसा करने के लिए, पहले अपने नए `on button A pressed` (बटन A दबाए जाने पर) इवेंट में `while` (जबकि) ब्लॉक को ड्रैग करें।
++ The timer should count up as long as button B **has not been pressed**. To do this, first drag a `while` block into your new `on button A pressed` event.
     
-    ![स्क्रीनशॉट](images/clock-while.png)
+    ![screenshot](images/clock-while.png)
 
-+ अपने `while` (जबकि) ब्लॉक में 'Logic' ('तर्क') से एक `not` (नहीं) ब्लॉक को ड्रैग करें:
++ Drag a `not` block, from 'Logic' to your `while` block:
     
-    ![स्क्रीनशॉट](images/clock-not.png)
+    ![screenshot](images/clock-not.png)
 
-+ फिर आप `not` (नहीं) ब्लॉक के बाद एक `button B pressed` (बटन B दबाए जाने पर) ब्लॉक को ड्रैग कर सकते हैं।
++ You can then drag a `button B pressed` block after the `not` block.
     
-    ![स्क्रीनशॉट](images/clock-b-pressed.png)
+    ![screenshot](images/clock-b-pressed.png)
     
-    इस `while` (जबकि) लूप के अंदर कोई भी कोड बार-बार चलाया जाएगा, **जब तक बटन B नहीं दबाया जाता है**।
+    Any code inside this `while` loop will be run repeatedly, **as long as button B has not been pressed**.
 
-+ इसके बाद, आप अपने `time` (समय) वेरिएबल में हर सेकंड (1 सेकंड = 1000 एमएस) में 1 जोड़ना चाहते हैं। अपने टाइमर को 1 सेकंड के लिए प्रतीक्षा करने के लिए एक `pause` (विराम) ब्लॉक जोड़ें।
++ Next, you want to add 1 to your `time` variable every second (1 second = 1000 ms). Add a `pause` block to make your timer wait for 1 second.
     
-    ![स्क्रीनशॉट](images/clock-pause.png)
+    ![screenshot](images/clock-pause.png)
 
-+ अपने `time` (समय) वेरिएबल को बढ़ाने के लिए,
++ To increase your `time` variable,
     
-    ![स्क्रीनशॉट](images/clock-change-time.png)
+    ![screenshot](images/clock-change-time.png)
 
-+ अंत में, आपको अद्यतन `time` (समय) वेरिएबल प्रदर्शित करना होगा। यहाँ दिखाया गया है कि आपका कोड कैसा दिखेगा:
++ Finally, you'll need to display the updated `time` variable. Here's how your code should look:
     
-    ![स्क्रीनशॉट](images/clock-update.png)
+    ![screenshot](images/clock-update.png)
 
-+ अपने कोड का परीक्षण करने के लिए 'run' (चलाएँ) पर क्लिक करें।
++ Click 'run' to test your code.
     
-    + अपने टाइमर को 0 पर सेट करने के लिए बटन A और B को एक साथ दबाएँ
-    + अपना टाइमर शुरू करने के लिए बटन A दबाएँ
-    + अपने टाइमर को रोकने के लिए बटन B को दबाएँ (और रोककर रखें)
+    + Press buttons A and B together to set your timer to 0
+    + Press button A to start your timer
+    + Press (and hold) button B to stop your timer
     
-    ![स्क्रीनशॉट](images/clock-test.png)
+    ![screenshot](images/clock-test.png)
 
-## अपने दोस्तों को चुनौती दें!
+## Challenge your friends!
 
-अपने दोस्तों को चुनौती देने के लिए टाइमर का उपयोग करें। उदाहरण के लिए, आप देख सकते हैं कि उन्हें वर्णमाला को उलटे क्रम में बोलने, या 10 राजधानी शहरों का नाम बताने में कितना समय लगता है।
+Use the timer to challenge your friends. For example, you could see how long it takes them to say the alphabet backwards, or name 10 capital cities.
