@@ -2,7 +2,7 @@
 
 Gadewch i ni osod eich amserydd i 0 pan fydd botymau A a B yn cael eu gwasgu gyda'i gilydd.
 
-+ Ewch i <a href="http://rpf.io/microbit-new" target="_blank">rpf.io/microbit-new</a> i ddechrau prosiect newydd yn y golygydd MakeCode (PXT). Enwch eich prosiect yn 'Amserydd'.
++ Go to <a href="http://rpf.io/microbit-new" target="_blank">rpf.io/microbit-new</a> to start a new project in the MakeCode (PXT) editor. Enwch eich prosiect yn 'Amserydd'.
 
 + Dilëwch y blociau `on start` (ar y cychwyn) a `forever` (am byth), gan nad oes eu hangen arnoch chi.
 
