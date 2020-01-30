@@ -1,4 +1,4 @@
-\--- kihívás \---
+\--- challenge \---
 
 ## Challenge: Counting Down
 
@@ -6,7 +6,7 @@ Can you create a **new** timer, that counts down to 0? Here's how your new timer
 
 + Pressing buttons A and B together should reset your `timer` to 0
     
-    ![képernyőkép](images/clock-challenge-1.png)
+    ![screenshot](images/clock-challenge-1.png)
 
 + Pressing button B should add 1 to your timer. Press it 10 times to create a 10 second timer.
     
@@ -22,4 +22,4 @@ Have you noticed that the timer isn't very accurate! This is because it takes ti
 
 Try adjusting the pause to improve the timing. You can use an `if/else` block to have shorter delays for bigger numbers that take longer to scroll.
 
-\--- / challenge \---
+\--- /challenge \---
