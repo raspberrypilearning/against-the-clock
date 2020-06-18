@@ -1,29 +1,29 @@
-## Setting up your timer
+## Timer einstellen
 
-Let's set your timer to 0 when buttons A and B are pressed together.
+Lass uns deinen Timer auf 0 setzen, wenn die Knöpfe A und B gleichzeitig gedrückt werden.
 
-+ Go to <a href="http://rpf.io/microbit-new" target="_blank">rpf.io/microbit-new</a> to start a new project in the MakeCode (PXT) editor. Name your project 'Timer'.
++ Gehe zu <a href="http://rpf.io/microbit-new" target="_blank">rpf.io/microbit-new</a> und beginne ein neues Project im "MakeCode (PXT)"-Editor. Nenne dein Projekt "Timer".
 
-+ Delete the `on start` and `forever` blocks, as you don't need them.
++ Lösche die `beim Start` und `wiederhole fortlaufend ` Blöcke, da du sie nicht brauchst.
 
-+ Add a new `on button pressed event` and select `A+B`:.
++ Füge eine neue `wenn Knopf gedrückt` Eingabe hinzu und wähle `A+B` aus:.
     
-    ![screenshot](images/clock-a-b.png)
+    ![Screenshot](images/clock-a-b.png)
 
-+ Click the 'Variables' then 'Make a variable', and create a new variable called `time`.
++ Klicke auf 'Variablen' und 'Erstelle eine Variable...', und nenne deine neue Variable `Zeit`.
     
     ![screenshot](images/clock-var-time.png)
 
-+ When buttons A and B are pressed together, you want the `time` to be set to `0`. To do this, drag a `set` block into your `on button A+B pressed` block:
++ Wenn die Knöpfe A und B gleichzeitig gedrückt werden, soll die `Zeit` auf `0` gestellt werden. Ziehe dafür einen `setze Zeit auf` Block in deinen `wenn Knopf gedrückt` Block:
     
     ![screenshot](images/clock-reset-1.png)
 
-The default value of zero is what you need.
+Der Standardwert "Null" ist der Wert, den du haben musst.
 
-+ You should also display the `time`. To do this, drag in a `show number` block and drag your `time` variable into it:
++ Du solltest auch die `Zeit` anzeigen. Erstelle dafür einen `zeige Zahl` Block, und ziehe deine `Zeit` Variable hinein:
     
     ![screenshot](images/clock-reset-show.png)
 
-+ Click 'run' to test your code. Press the 'A+B' button (below the micro:bit) to set your timer to 0.
++ Klicke auf "Simulator starten", um deinen Code zu testen. Drücke den 'A+B' Knopf (unter dem micro:bit) um deinen Timer auf 0 zu setzen.
     
     ![screenshot](images/clock-test-reset.png)
