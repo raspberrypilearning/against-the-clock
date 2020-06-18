@@ -1,45 +1,45 @@
-## Starting and stopping your timer
+## بدء وإيقاف المؤقت
 
-Let's use button A to start your timer, and button B to stop it.
+دعونا نستخدم الزر A لبدء تشغيل المؤقت الخاص بك، والزر B لإيقافه.
 
-+ Your timer should start when button A is pressed. Add a new `on button A pressed` block to your script:
++ يجب أن يبدأ المؤقت الخاص بك عند الضغط على الزر A. إضافة حدث جديد `على الزر A مضغوط` إلى التعليمة الخاص بك:
     
-    ![screenshot](images/clock-a-pressed.png)
+    ![لقطة الشاشة](images/clock-a-pressed.png)
 
-+ The timer should count up as long as button B **has not been pressed**. To do this, first drag a `while` block into your new `on button A pressed` event.
++ يجب أن يقوم المؤقت بالعد طالما لم يتم الضغط على الزرB ****. للقيام بذلك، اسحب أولاً كتلة `while` إلى الحدث الجديد `على الزر A مضغوط`.
     
-    ![screenshot](images/clock-while.png)
+    ![لقطة الشاشة](images/clock-while.png)
 
-+ Drag a `not` block, from 'Logic' to your `while` block:
++ اسحب كتلة `not` من 'Logic' إلى كتلة `while` الخاصة بك:
     
-    ![screenshot](images/clock-not.png)
+    ![لقطة الشاشة](images/clock-not.png)
 
-+ You can then drag a `button B pressed` block after the `not` block.
++ يمكنك بعد ذلك سحب كتلة `زر B مضغوط` بعد كتلة `لا `.
     
-    ![screenshot](images/clock-b-pressed.png)
+    ![لقطة الشاشة](images/clock-b-pressed.png)
     
-    Any code inside this `while` loop will be run repeatedly, **as long as button B has not been pressed**.
+    سيتم تشغيل أي رمز داخل حلقة `while` بشكل متكرر، **طالما لم يتم الضغط على الزر B **.
 
-+ Next, you want to add 1 to your `time` variable every second (1 second = 1000 ms). Add a `pause` block to make your timer wait for 1 second.
++ بعد ذلك، تريد إضافة 1 إلى متغير `time` كل ثانية (1 ثانية = 1000 م). أضف كتلة `توقف` لجعل المؤقت الخاص بك ينتظر لمدة ثانية واحدة.
     
-    ![screenshot](images/clock-pause.png)
+    ![لقطة الشاشة](images/clock-pause.png)
 
-+ To increase your `time` variable,
++ لزيادة متغير `الوقت` الخاص بك،
     
-    ![screenshot](images/clock-change-time.png)
+    ![لقطة الشاشة](images/clock-change-time.png)
 
-+ Finally, you'll need to display the updated `time` variable. Here's how your code should look:
++ أخيرا، ستحتاج إلى عرض وقت متغير ` ` المحدث. إليك كيفية ظهور شفرتك:
     
-    ![screenshot](images/clock-update.png)
+    ![لقطة الشاشة](images/clock-update.png)
 
-+ Click 'run' to test your code.
++ انقر فوق 'تشغيل' لاختبار الكود الخاص بك.
     
-    + Press buttons A and B together to set your timer to 0
-    + Press button A to start your timer
-    + Press (and hold) button B to stop your timer
+    + اضغط على الزرين A و B معا لتعيين المؤقت إلى 0
+    + اضغط على الزر A لبدء المؤقت الخاص بك
+    + اضغط على الزرB (مع الاستمرار) لإيقاف المؤقت الخاص بك 
     
-    ![screenshot](images/clock-test.png)
+    ![لقطة الشاشة](images/clock-test.png)
 
-## Challenge your friends!
+## تحدي أصدقائك!
 
-Use the timer to challenge your friends. For example, you could see how long it takes them to say the alphabet backwards, or name 10 capital cities.
+استخدم المؤقت لتحدي أصدقائك. على سبيل المثال، يمكنك أن ترى كم من الوقت يستغرقه قول الأبجدية إلى الخلف، أو تسمية 10 عواصم.
