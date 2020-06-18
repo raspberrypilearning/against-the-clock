@@ -12,7 +12,7 @@ Kun je een **nieuwe** timer maken, die aftelt tot 0? Dit is hoe je nieuwe timer 
     
     ![schermafbeelding](images/clock-challenge-2.png)
 
-+ Het indrukken van knop A moet 1 afhalen van je `tijd` variabele tot die 0 wordt. Dit betekent dat je een `terwijl` lus nodig hebt die loopt zo lang de `tijd` groter is dan (`>`) 0.
++ Het indrukken van knop A moet 1 aftrekken van je `tijd` variabele tot die 0 wordt. Dit betekent dat je een `terwijl` lus nodig hebt die loopt zo lang de `tijd` groter is dan (`>`) 0.
     
     ![schermafbeelding](images/clock-challenge-3.png)
 
