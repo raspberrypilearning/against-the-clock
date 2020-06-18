@@ -1,45 +1,45 @@
-## Starting and stopping your timer
+## Timer starten und anhalten
 
-Let's use button A to start your timer, and button B to stop it.
+Starte den Timer mit Knopf A, und halte ihn mit Knopf B an.
 
-+ Your timer should start when button A is pressed. Add a new `on button A pressed` block to your script:
++ Dein Timer sollte starten, wenn Knopf A gedrückt wird. Füge einen neuen `wenn Knopf A gedrückt` Block zu deinem Programm hinzu:
     
-    ![screenshot](images/clock-a-pressed.png)
+    ![Screenshot](images/clock-a-pressed.png)
 
-+ The timer should count up as long as button B **has not been pressed**. To do this, first drag a `while` block into your new `on button A pressed` event.
++ Der Timer sollte hochzählen, solange Knopf B **nicht gedrückt wird**. Ziehe dafür zuerst einen `während` Block in deine neue `wenn Knopf A gedrückt` Eingabe.
     
     ![screenshot](images/clock-while.png)
 
-+ Drag a `not` block, from 'Logic' to your `while` block:
++ Ziehe einen `nicht` Block aus "Logik" in deinen `während` Block:
     
-    ![screenshot](images/clock-not.png)
+    ![Screenshot](images/clock-not.png)
 
-+ You can then drag a `button B pressed` block after the `not` block.
++ Dann kannst du einen `wenn Knopf B gedrückt` Block hinter den `nicht` Block ziehen.
     
     ![screenshot](images/clock-b-pressed.png)
     
-    Any code inside this `while` loop will be run repeatedly, **as long as button B has not been pressed**.
+    Jeder Code in dieser `während` Schleife wird wiederholt ausgeführt, **so lange Knopf B nicht gedrückt wird**.
 
-+ Next, you want to add 1 to your `time` variable every second (1 second = 1000 ms). Add a `pause` block to make your timer wait for 1 second.
++ Als nächstes wollen wir pro Sekunde 1 zu deiner `Zeit` Variable hinzuzählen (1 Sekunde = 1000 ms). Füge einen `pausiere (ms)` Block hinzu, um deinen Timer eine Sekunde lang warten zu lassen.
     
     ![screenshot](images/clock-pause.png)
 
-+ To increase your `time` variable,
++ Um deine `Zeit` Variable hochzuzählen,
     
-    ![screenshot](images/clock-change-time.png)
+    ![Screenshot](images/clock-change-time.png)
 
-+ Finally, you'll need to display the updated `time` variable. Here's how your code should look:
++ Schließlich musst du die aktualisierte `Zeit` Variable anzeigen. So sollte dein Code aussehen:
     
-    ![screenshot](images/clock-update.png)
+    ![Screenshot](images/clock-update.png)
 
-+ Click 'run' to test your code.
++ Klicke auf "Simulator starten", um deinen Code zu testen.
     
-    + Press buttons A and B together to set your timer to 0
-    + Press button A to start your timer
-    + Press (and hold) button B to stop your timer
+    + Drücke die Knöpfe A und B gleichzeitig, um deinen Timer auf 0 zu setzen
+    + Drücke Knopf A, um deinen Timer zu starten
+    + Halte Knopf B gedrückt, um deinen Timer anzuhalten
     
-    ![screenshot](images/clock-test.png)
+    ![Screenshot](images/clock-test.png)
 
-## Challenge your friends!
+## Fordere deine Freunde heraus!
 
-Use the timer to challenge your friends. For example, you could see how long it takes them to say the alphabet backwards, or name 10 capital cities.
+Benutze den Timer, um deine Freunde herauszufordern. Du kannst zum Beispiel sehen, wie lange sie brauchen, um das Alphabet rückwärts aufzusagen, oder 10 Hauptstädte zu benennen.
