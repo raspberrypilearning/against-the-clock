@@ -1,25 +1,25 @@
 \--- challenge \---
 
-## Challenge: Counting Down
+## التحدي: العد التنازلي
 
-Can you create a **new** timer, that counts down to 0? Here's how your new timer should work:
+هل يمكنك إنشاء موقت **جديد** الذي يعدّ إلى 0؟ إليك كيف يجب أن يعمل المؤقت الجديد الخاص بك:
 
-+ Pressing buttons A and B together should reset your `timer` to 0
++ يجب أن يؤدي الضغط على الزرين A و B معًا إلى إعادة ضبط المؤقت ` ` إلى 0
     
-    ![screenshot](images/clock-challenge-1.png)
+    ![لقطة الشاشة](images/clock-challenge-1.png)
 
-+ Pressing button B should add 1 to your timer. Press it 10 times to create a 10 second timer.
++ الضغط على زر B يجب أن يضيف 1 إلى المؤقت الخاص بك. اضغط عليها 10 مرات لإنشاءمؤقت ل10 ثواني.
     
-    ![screenshot](images/clock-challenge-2.png)
+    ![لقطة الشاشة](images/clock-challenge-2.png)
 
-+ Pressing button A should take 1 from your `time` variable until it gets to 0. This means you'll need a `while` loop that runs as long as the `time` is greater than (`>`) 0.
++ الضغط على زر A يجب أن يأخذ 1 من متغير `time` حتى يصل إلى 0. هذا يعني أنك ستحتاج إلى حلقة `while` التي تعمل طالما أن `time` أكبر من صفر (`>`).
     
-    ![screenshot](images/clock-challenge-3.png)
+    ![لقطة الشاشة](images/clock-challenge-3.png)
 
-## Accurate timer
+## مؤقت دقيق
 
-Have you noticed that the timer isn't very accurate! This is because it takes time to display and scroll numbers on the micro:bit.
+هل لاحظت أن المؤقت ليس دقيقاً جداً! هذا لأنه يستغرق وقتًا لعرض الأرقام والتمرير عليها في micro: bit.
 
-Try adjusting the pause to improve the timing. You can use an `if/else` block to have shorter delays for bigger numbers that take longer to scroll.
+حاول ضبط الإيقاف المؤقت لتحسين التوقيت. يمكنك استخدام كتلة `if/else` للحصول على تأخير أقصر لأعداد أكبر التي تستغرق وقتا أطول للتمرير.
 
 \--- /challenge \---
