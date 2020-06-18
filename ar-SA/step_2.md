@@ -1,29 +1,29 @@
-## Setting up your timer
+## إعداد المؤقت الخاص بك
 
-Let's set your timer to 0 when buttons A and B are pressed together.
+لنقم بضبط المؤقت على 0 عند الضغط على الزرين A و B معًا.
 
-+ Go to <a href="http://rpf.io/microbit-new" target="_blank">rpf.io/microbit-new</a> to start a new project in the MakeCode (PXT) editor. Name your project 'Timer'.
++ اذهب إلى <a href="http://rpf.io/microbit-new" target="_blank">rpf.io/microbit-new</a> لبدء مشروع جديد في محرر MakeCode (PXT) قم بتسمية مشروعك باسم "المؤقت".
 
-+ Delete the `on start` and `forever` blocks, as you don't need them.
++ احذف الكتل البرمجية `عند البدء` و `إلى الأبد`، لأنك لا تحتاج إليها.
 
-+ Add a new `on button pressed event` and select `A+B`:.
++ إضافة ` جديد على زر الضغط على الحدث ` وحدد ` A + B ` :.
     
-    ![screenshot](images/clock-a-b.png)
+    ![لقطة الشاشة](images/clock-a-b.png)
 
-+ Click the 'Variables' then 'Make a variable', and create a new variable called `time`.
++ انقر على "المتغيرات" ثم "إنشاء متغير" ، وأنشئ متغيرًا جديدًا يسمى ` الوقت ` .
     
-    ![screenshot](images/clock-var-time.png)
+    ![لقطة الشاشة](images/clock-var-time.png)
 
-+ When buttons A and B are pressed together, you want the `time` to be set to `0`. To do this, drag a `set` block into your `on button A+B pressed` block:
++ عندما يتم الضغط على الزرين A و B معًا ، فأنت تريد ` الوقت ` يتم ضبطه على ` 0 `. للقيام بذلك ، اسحب مجموعة ` ` الضغط على ` على الزر A + B ` منع:
     
-    ![screenshot](images/clock-reset-1.png)
+    ![لقطة الشاشة](images/clock-reset-1.png)
 
-The default value of zero is what you need.
+القيمة الافتراضية للصفر هي ما تحتاجه.
 
-+ You should also display the `time`. To do this, drag in a `show number` block and drag your `time` variable into it:
++ يجب عليك أيضًا عرض `الوقت `. للقيام بذلك، اسحب في ` إظهار الرقم ` وسحب متغير `وقت ` في:
     
-    ![screenshot](images/clock-reset-show.png)
+    ![لقطة الشاشة](images/clock-reset-show.png)
 
-+ Click 'run' to test your code. Press the 'A+B' button (below the micro:bit) to set your timer to 0.
++ انقر فوق 'تشغيل' لاختبار الكود الخاص بك. اضغط على زر 'A+B' (أسفل المايكروبيت (micro:bit) لتعيين المؤقت الخاص بك إلى 0.
     
-    ![screenshot](images/clock-test-reset.png)
+    ![لقطة الشاشة](images/clock-test-reset.png)
