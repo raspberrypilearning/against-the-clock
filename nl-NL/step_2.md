@@ -20,7 +20,7 @@ We gaan je timer instellen op 0 wanneer knoppen A en B samen worden ingedrukt.
 
 De standaardwaarde nul is wat je nodig hebt.
 
-+ Je moet ook de `tijd` tonen. To do this, drag in a `show number` block and drag your `time` variable into it:
++ Je moet ook de `tijd` tonen. Om dit te doen, voeg een `toon nummer` blok toe en sleep er je `tijd` variabele in:
     
     ![schermafbeelding](images/clock-reset-show.png)
 
