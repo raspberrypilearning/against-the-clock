@@ -10,11 +10,11 @@ Je gaat leren hoe je een timer kunt maken, zodat je deze kunt gebruiken om je vr
 
 ### Aanvullende informatie voor clubleiders
 
-Als je dit project wilt afdrukken, gebruik dan de [Printervriendelijke versie](https://projects.raspberrypi.org/en/projects/against-the-clock/print).
+Als je dit project wilt afdrukken, gebruik dan de [printervriendelijke versie](https://projects.raspberrypi.org/en/projects/against-the-clock/print).
 
 ## \--- collapse \---
 
-## titel: Clubleider notities
+## title: Clubleider notities
 
 ## Inleiding:
 
@@ -34,7 +34,7 @@ Je kunt een voltooide versie van dit project vinden op [makecode.microbit.org/#p
 * Herhaling (`terwijl` lus);
 * `niet` Booleaanse operator.
 
-Dit project behandelt elementen uit de volgende onderdelen van het [ Raspberry Pi Digital Making Curriculum ](http://rpf.io/curriculum):
+Dit project behandelt elementen uit de volgende onderdelen van het [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
 * [Gebruik eenvoudige programmeerconstructies om simpele programma's te maken.](https://www.raspberrypi.org/curriculum/programming/creator)
 
