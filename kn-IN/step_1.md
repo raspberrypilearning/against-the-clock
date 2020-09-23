@@ -10,7 +10,7 @@
 
 ### ಕ್ಲಬ್ ನಾಯಕರಿಗೆ ಹೆಚ್ಚು ಮಾಹಿತಿ
 
-ಈ ಯೋಜನೆಯನ್ನು ಪ್ರಿಂಟ್ ಮಾಡಲು [Printer friendly version](https://projects.raspberrypi.org/en/projects/against-the-clock/print) ಅನ್ನು ಉಪಯೋಗಿಸಿ.
+ನೀವು ಈ ಯೋಜನೆಯನ್ನು ಮುದ್ರಿಸಬೇಕಾದರೆ, ದಯವಿಟ್ಟು [ಮುದ್ರಕ-ಸ್ನೇಹಿ ಆವೃತ್ತಿಯನ್ನು ಬಳಸಿ](https://projects.raspberrypi.org/en/projects/against-the-clock/print).
 
 ## \--- collapse \---
 
