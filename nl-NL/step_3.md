@@ -14,7 +14,7 @@ We gaan knop A gebruiken om je timer te starten en knop B om deze te stoppen.
     
     ![schermafbeelding](images/clock-not.png)
 
-+ Je kunt vervolgens een `knop B wordt ingedrukt` blok na het `niet` blok slepen.
++ Je kunt vervolgens een `wanneer knop B wordt ingedrukt` blok na het `niet` blok slepen.
     
     ![schermafbeelding](images/clock-b-pressed.png)
     
