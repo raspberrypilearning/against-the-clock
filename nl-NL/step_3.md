@@ -1,8 +1,8 @@
 ## Je timer starten en stoppen
 
-Laten we knop A gebruiken om je timer te starten en knop B om deze te stoppen.
+We gaan knop A gebruiken om je timer te starten en knop B om deze te stoppen.
 
-+ Je timer zou moeten starten wanneer knop A wordt ingedrukt. Voeg een nieuw `wanneer knop A wordt ingedrukt` blok toe aan je code:
++ Je timer moet starten wanneer knop A wordt ingedrukt. Voeg een nieuw `wanneer knop A wordt ingedrukt` blok toe aan je code:
     
     ![schermafbeelding](images/clock-a-pressed.png)
 
@@ -14,7 +14,7 @@ Laten we knop A gebruiken om je timer te starten en knop B om deze te stoppen.
     
     ![schermafbeelding](images/clock-not.png)
 
-+ Je kunt vervolgens een `knop B wordt ingedrukt` blok na het `niet` blok slepen.
++ Je kunt vervolgens een `wanneer knop B wordt ingedrukt` blok na het `niet` blok slepen.
     
     ![schermafbeelding](images/clock-b-pressed.png)
     
@@ -34,7 +34,7 @@ Laten we knop A gebruiken om je timer te starten en knop B om deze te stoppen.
 
 + Klik op 'run' om je code te testen.
     
-    + Druk op knoppen A en B samen om je timer op 0 in te stellen
+    + Druk tegelijkertijd op knoppen A en B om je timer op 0 in te stellen
     + Druk op knop A om je timer te starten
     + Druk op knop B (en houd deze ingedrukt) om je timer te stoppen
     
