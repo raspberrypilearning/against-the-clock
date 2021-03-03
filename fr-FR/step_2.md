@@ -1,29 +1,29 @@
 ## Configurer ton chronomètre
 
-Remettons ton chronomètre à 0 quand les boutons A et B sont pressés simultannément.
+Réglons ton chronomètre à 0 lorsque les boutons A et B sont appuyés ensemble.
 
-+ Va sur <a href="http://jumpto.cc/pxt-new" target="_blank">jumpto.cc/pxt-new</a>  pour démarrer un nouveau projet dans l'éditeur PXT. Appelle ton projet 'Chrono'.
++ Va sur <a href="http://rpf.io/microbit-new" target="_blank">rpf.io/microbit-new</a> pour démarrer un nouveau projet dans l'éditeur MakeCode (PXT). Nomme ton projet « Chronomètre ».
 
-+ Efface les blocs `au démarrage` et `toujours`, tu n'en auras pas besoin.
++ Supprime les blocs `au démarrage` et `toujours` car tu n'en as pas besoin.
 
-+ Ajoute un bloc `lorsque le bouton est pressé` et sélectionne `A+B`&nbsp;:.
++ Ajoute un nouvelle entrée `lorsque le bouton est pressé` et sélectionne `A+B`.
+    
+    ![capture d'écran](images/clock-a-b.png)
 
-	![screenshot](images/clock-a+b.png)
++ Clique sur « Variables » puis « Créer une variable » et choisis de l'appeler `temps`.
+    
+    ![capture d'écran](images/clock-var-time.png)
 
-+ Clique sur 'Variables' puis 'Créer une variable', et crée une nouvelle variable appellée `temps`.
++ Lorsque les boutons A et B sont appuyés ensemble, tu veux que le `temps` soit réglé à `0`. Pour faire cela, glisse un bloc `définir` dans ton bloc `lorsque le bouton A+B est pressé` :
+    
+    ![capture d'écran](images/clock-reset-1.png)
 
-	![screenshot](images/clock-var-time.png)
+La valeur par défaut de zéro est ce dont tu as besoin.
 
-+ Quand les boutons A et B sont pressés ensemble, tu veux que `temps` ait la valeur `0`. Pour cela, place un bloc `définir` dans ton bloc `lorsque le bouton A+B est pressé`&nbsp;:
++ Tu devais également afficher le `temps`. Pour faire cela, glisse un bloc `montrer le nombre` et fais glisser ta variable `temps` dedans :
+    
+    ![capture d'écran](images/clock-reset-show.png)
 
-	![screenshot](images/clock-reset-1.png)
-
-La valeur par défaut vaut zéro et c'est ce dont tu as besoin.
-
-+ Tu devrais aussi afficher le `temps`. Pour cela, place un bloc `montrer nombre` et met ta variable `temps` dedans&nbsp;:
-
-	![screenshot](images/clock-reset-show.png)
-
-+ Clique sur 'lancer' pour tester ton code. Appuye sur le bouton 'A+B' (sous la micro:bit) pour mettre ton chronomètre à 0.
-
-	![screenshot](images/clock-test-reset.png)
++ Clique « lancer » pour tester ton code. Appuie sur le bouton « A+B » (en dessous du micro:bit) pour régler ton chronomètre à 0.
+    
+    ![capture d'écran](images/clock-test-reset.png)
