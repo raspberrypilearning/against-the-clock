@@ -1,25 +1,35 @@
 --- challenge ---
-## Défi : Compte à Rebours
-Peux tu créer un __nouveau__ chronomètre, qui compte à rebours jusqu'à 0 ? Voilà comment ton nouveau chronomètre devrait fonctionner&nbsp;:
 
-+ Appuyer sur A et B simultanément doit donner la valeur 10 à ton `temps`
+## Défi : Compte à rebours
 
-	![screenshot](images/clock-challenge-1.png)
+Peux-tu créer un **nouveau** chronomètre , qui compte à rebours jusque 0 ? Voici comment ton nouveau chronomètre devrait fonctionner :
 
-+ Appuyer sur le bouton B doit ajouter 1 à ton chronomètre
++ Appuyer sur les boutons A et B ensemble devrait réinitialiser ton `chronomètre` à 0
+    
+    ![capture d'écran](images/clock-challenge-1.png)
 
-	![screenshot](images/clock-challenge-2.png)
++ Appuyer sur le bouton B devrait ajouter 1 à ton chronomètre. Appuie dessus 10 fois pour créer un chronomètre de 10 secondes.
+    
+    ![captures d'écran](images/clock-challenge-2.png)
 
-+ Appuyer sur le bouton A doit enlever 1 de ta variable `temps` jusqu'à atteindre 0. Cela signifie que tu auras besoin d'une boucle `lorsque` qui tourne aussi longtemps que `temps` est plus grand que (`>`) 0.
++ Appuyer sur le bouton A devrait prendre 1 de ta variable `temps` jusqu'à ce qu'elle atteigne 0. Cela signifie que tu auras besoin d'une boucle `tant que` qui s'exécute aussi longtemps que le `temps` est supérieur à (`>`) 0.
+    
+    ![capture d'écran](images/clock-challenge-3.png)
 
-	![screenshot](images/clock-challenge-3.png)
+## Chronomètre précis
 
-## Chronomètre de précision 
-As tu remarqué que ton chronomètre n'est pas très précis ? Cela est du au temps nécessaire pour afficher et faire défiler des nombres sur la micro:bit.
+As-tu remarqué que le chronomètre n'est pas très précis ! C'est parce qu'il faut du temps pour afficher et faire défiler les numéros sur le micro:bit.
 
-Essaye d'ajuster la pause pour améliorer le chronométrage. Tu peux utiliser un bloc `si/alors` pour avoir une pause plus courte pour les nombres plus grands qui prennent plus de temps à faire défiler.
-
-
-
+Essaie d'ajuster la pause pour améliorer le chronométrage. Tu peux utiliser un bloc `si/alors` pour avoir des délais plus courts pour les plus grands nombres qui prennent plus de temps à défiler.
 
 --- /challenge ---
+
+
+***
+Ce projet a été traduit par des bénévoles:
+
+Michel Arnols
+
+Jonathan Vannieuwkerke
+
+Grâce aux bénévoles, nous pouvons donner aux gens du monde entier la chance d'apprendre dans leur propre langue. Vous pouvez nous aider à atteindre plus de personnes en vous portant volontaire pour la traduction - plus d'informations sur [rpf.io/translate](https://rpf.io/translate).
