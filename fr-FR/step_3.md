@@ -1,45 +1,45 @@
-## Starting and stopping your timer
+## Démarrer et arrêter ton chronomètre
 
-Let's use button A to start your timer, and button B to stop it.
+Utilisons le bouton A pour démarrer ton chronomètre, et le bouton B pour l'arrêter.
 
-+ Your timer should start when button A is pressed. Add a new `on button A pressed` block to your script:
++ Ton chronomètre devrait démarrer lorsque le bouton A est pressé. Ajoute un nouveau bloc `lorsque le bouton A pressé` à ton script :
     
-    ![screenshot](images/clock-a-pressed.png)
+    ![capture d'écran](images/clock-a-pressed.png)
 
-+ The timer should count up as long as button B **has not been pressed**. To do this, first drag a `while` block into your new `on button A pressed` event.
++ Le chronomètre doit compter aussi longtemps que le bouton B **n'a pas été pressé**. Pour faire cela, glisse un bloc `tant que` dans ton nouvel événement `lorsque le bouton A est pressé` .
     
-    ![screenshot](images/clock-while.png)
+    ![capture d'écran](images/clock-while.png)
 
-+ Drag a `not` block, from 'Logic' to your `while` block:
++ Fais glisser un bloc `non` , de « Logique » à ton bloc `tant que` :
     
-    ![screenshot](images/clock-not.png)
+    ![capture d'écran](images/clock-not.png)
 
-+ You can then drag a `button B pressed` block after the `not` block.
++ Tu peux ensuite faire glisser un bloc `bouton B est pressé` après le bloc `non`.
     
-    ![screenshot](images/clock-b-pressed.png)
+    ![capture d'écran](images/clock-b-pressed.png)
     
-    Any code inside this `while` loop will be run repeatedly, **as long as button B has not been pressed**.
+    Tout code à l'intérieur de cette boucle `tant que ` sera répété, **aussi longtemps que le bouton B n'a pas été pressé**.
 
-+ Next, you want to add 1 to your `time` variable every second (1 second = 1000 ms). Add a `pause` block to make your timer wait for 1 second.
++ Ensuite, tu veux ajouter 1 à ta variable `temps` à chaque seconde (1 seconde = 1000 ms). Ajoute un bloc `pause` pour que ton chronomètre attende 1 seconde.
     
-    ![screenshot](images/clock-pause.png)
+    ![capture d'écran](images/clock-pause.png)
 
-+ To increase your `time` variable,
++ Pour augmenter ta variable `temps`
     
-    ![screenshot](images/clock-change-time.png)
+    ![capture d'écran](images/clock-change-time.png)
 
-+ Finally, you'll need to display the updated `time` variable. Here's how your code should look:
++ Enfin, tu devras afficher la variable `temps` mise à jour. Voici à quoi ton code devrait ressembler :
     
-    ![screenshot](images/clock-update.png)
+    ![capture d'écran](images/clock-update.png)
 
-+ Click 'run' to test your code.
++ Clique « lancer » pour tester ton code.
     
-    + Press buttons A and B together to set your timer to 0
-    + Press button A to start your timer
-    + Press (and hold) button B to stop your timer
+    + Appuie sur les boutons A et B ensemble pour régler ton chronomètre à 0
+    + Appuie sur le bouton A pour démarrer ton chronomètre
+    + Appuie (et maintiens) sur le bouton B pour arrêter ton chronomètre
     
-    ![screenshot](images/clock-test.png)
+    ![capture d'écran](images/clock-test.png)
 
-## Challenge your friends!
+## Défie tes amis !
 
-Use the timer to challenge your friends. For example, you could see how long it takes them to say the alphabet backwards, or name 10 capital cities.
+Utilise le chronomètre pour défier tes amis. Par exemple, tu pourrais voir combien de temps il leur faut pour réciter l'alphabet en arrière, ou nommer 10 capitales.
