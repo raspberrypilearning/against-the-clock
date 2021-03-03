@@ -1,59 +1,59 @@
 ## Introduction
 
-You are going to learn how to make a timer, so that you can use it to challenge your friends!
+Tu vas apprendre à créer un chronomètre, afin de pouvoir l'utiliser pour défier tes amis !
 
-**Instructions**: If you're reading this online, press **A+B** on the micro:bit below to set your timer to 0, **A** to start your timer, and **B** to stop it.
+**Instructions** : Si tu lis ceci en ligne, appuie sur **A+B** sur le micro:bit ci-dessous pour régler ton chronomètre à 0, **A** pour démarrer ton chronomètre, et **B** pour l'arrêter.
 
 <div class="trinket" style="width:400px;margin: 0 auto;">
 <div style="position:relative;height:0;padding-bottom:81.97%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---run?id=_iRqcVkfXiffq" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-scripts allow-same-origin" frameborder="0"></iframe></div>
 </div>
 
-### Additional information for club leaders
+### Informations complémentaires pour les responsables de club
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/against-the-clock/print).
+Si vous avez besoin d'imprimer ce projet, merci d'utiliser la [version imprimable](https://projects.raspberrypi.org/en/projects/against-the-clock/print).
 
 ## \--- collapse \---
 
-## title: Club leader notes
+## title: Notes pour le responsable de club
 
-## Introduction:
+## Introduction :
 
-In this project, children will learn how to make a timer, which can be used to challenge their friends!
+Dans ce projet, les enfants apprendront à créer un chronomètre, qui peut être utilisé pour défier leurs amis !
 
-## Resources
+## Ressources
 
-For this project, the [MakeCode (PXT)](http://jumpto.cc/pxt-new) microbit editor should be used.
+Pour ce projet, l'éditeur [MakeCode (PXT)](http://jumpto.cc/pxt-new) devrait être utilisé.
 
-You can find a completed version of this project at [makecode.microbit.org/#pub:55342-38825-28229-57221](https://makecode.microbit.org/#pub:55342-38825-28229-57221), and the compiled .hex file can be downloaded by clicking the 'Download Project Materials' link for this project, which contains:
+Vous pouvez trouver une version terminée de ce projet sur [makecode.microbit.org/#pub:55342-38825-28229-57221](https://makecode.microbit.org/#pub:55342-38825-28229-57221), et le fichier compilé .hex peut être téléchargé en cliquant sur le lien « Télécharger le matériel du projet » pour ce projet, qui contient :
 
 * microbit-Against-the-Clock.hex
 * microbit-Countdown.hex
 
-## Learning Objectives
+## Objectifs d'apprentissage
 
-* Repetition (`while` loop);
-* `not` Boolean operator.
+* Répétition (boucle `tant que` );
+* Opérateur booléen `pas`.
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Ce projet couvre les éléments suivants du [Programme de Créativité Numérique de Raspberry Pi](http://rpf.io/curriculum) :
 
-* [Use basic programming constructs to create simple programs.](https://www.raspberrypi.org/curriculum/programming/creator)
+* [Utiliser des constructions de programmation de base pour créer des programmes simples.](https://www.raspberrypi.org/curriculum/programming/creator)
 
-## Challenges
+## Défis
 
-* "Challenge your friends!" - use the timer to set challenges for others to complete.
-* "Counting Down" - using a `while` loop to create a timer that counts down until it reaches 0.
+* « Défie tes amis ! » - utilise le chronomètre pour définir les défis que les autres doivent relever.
+* « Compte à rebours » - en utilisant une boucle `tant que` pour créer un chronomètre qui compte à rebours jusqu'à ce qu'il atteigne 0.
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Project materials
+## title: Matériel pour projet
 
-## Club leader resources
+## Ressources pour le responsable de club
 
-* [online completed project](https://makecode.microbit.org/#pub:55342-38825-28229-57221)
-* [.hex project file to transfer onto your micro:bit](resources/microbit-Against-the-Clock.hex)
-* [online completed "Countdown" challenge](https://makecode.microbit.org/#pub:69636-14914-13941-21768)
-* [.hex file for the completed "Countdown" challenge](resources/microbit-Countdown.hex)
+* [projet terminé hors-ligne](https://makecode.microbit.org/#pub:55342-38825-28229-57221)
+* [Fichier projet .hex à transférer sur votre micro:bit](resources/microbit-Against-the-Clock.hex)
+* [défi « Compte à rebours » terminé en ligne](https://makecode.microbit.org/#pub:69636-14914-13941-21768)
+* [Fichier .hex pour le défi « Compte à rebours » terminé](resources/microbit-Countdown.hex)
 
 \--- /collapse \---
