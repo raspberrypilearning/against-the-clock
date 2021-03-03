@@ -1,25 +1,25 @@
 \--- challenge \---
 
-## Challenge: Counting Down
+## Défi : Compte à rebours
 
-Can you create a **new** timer, that counts down to 0? Here's how your new timer should work:
+Peux-tu créer un **nouveau** chronomètre , qui compte à rebours jusque 0 ? Voici comment ton nouveau chronomètre devrait fonctionner :
 
-+ Pressing buttons A and B together should reset your `timer` to 0
++ Appuyer sur les boutons A et B ensemble devrait réinitialiser ton `chronomètre` à 0
     
-    ![screenshot](images/clock-challenge-1.png)
+    ![capture d'écran](images/clock-challenge-1.png)
 
-+ Pressing button B should add 1 to your timer. Press it 10 times to create a 10 second timer.
++ Appuyer sur le bouton B devrait ajouter 1 à ton chronomètre. Appuie dessus 10 fois pour créer un chronomètre de 10 secondes.
     
-    ![screenshot](images/clock-challenge-2.png)
+    ![captures d'écran](images/clock-challenge-2.png)
 
-+ Pressing button A should take 1 from your `time` variable until it gets to 0. This means you'll need a `while` loop that runs as long as the `time` is greater than (`>`) 0.
++ Appuyer sur le bouton A devrait prendre 1 de ta variable `temps` jusqu'à ce qu'elle atteigne 0. Cela signifie que tu auras besoin d'une boucle `tant que` qui s'exécute aussi longtemps que le `temps` est supérieur à (`>`) 0.
     
-    ![screenshot](images/clock-challenge-3.png)
+    ![capture d'écran](images/clock-challenge-3.png)
 
-## Accurate timer
+## Chronomètre précis
 
-Have you noticed that the timer isn't very accurate! This is because it takes time to display and scroll numbers on the micro:bit.
+As-tu remarqué que le chronomètre n'est pas très précis ! C'est parce qu'il faut du temps pour afficher et faire défiler les numéros sur le micro:bit.
 
-Try adjusting the pause to improve the timing. You can use an `if/else` block to have shorter delays for bigger numbers that take longer to scroll.
+Essaie d'ajuster la pause pour améliorer le chronométrage. Tu peux utiliser un bloc `si/alors` pour avoir des délais plus courts pour les plus grands nombres qui prennent plus de temps à défiler.
 
 \--- /challenge \---
