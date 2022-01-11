@@ -17,7 +17,9 @@ software: ''
 version: 3.0.1
 last_tested: 2019-02-28
 steps:
-  - title: Inleiding
-  - title: Je timer instellen
-  - title: Je timer starten en stoppen
-  - title: 'Uitdaging: aftellen'
+- title: Inleiding
+  completion: engaged
+- title: Je timer instellen
+- title: Je timer starten en stoppen
+  completion: internal
+- title: 'Uitdaging: aftellen'

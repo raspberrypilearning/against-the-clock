@@ -17,7 +17,9 @@ software: ''
 version: 3.0.1
 last_tested: 2019-02-28
 steps:
-  - title: Introducción
-  - title: Configura tu cronómetro
-  - title: Iniciar y detener tu cronómetro
-  - title: 'Desafío: Cuenta regresiva'
+- title: Introducción
+  completion: engaged
+- title: Configura tu cronómetro
+- title: Iniciar y detener tu cronómetro
+  completion: internal
+- title: 'Desafío: Cuenta regresiva'

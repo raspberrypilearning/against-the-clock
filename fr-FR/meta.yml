@@ -17,7 +17,9 @@ software: ''
 version: 3.0.1
 last_tested: 2019-02-28
 steps:
-  - title: Introduction
-  - title: Configurer ton chronomètre
-  - title: Démarrer et arrêter ton chronomètre
-  - title: 'Défi : Compte à rebours'
+- title: Introduction
+  completion: engaged
+- title: Configurer ton chronomètre
+- title: Démarrer et arrêter ton chronomètre
+  completion: internal
+- title: 'Défi : Compte à rebours'

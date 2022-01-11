@@ -17,7 +17,9 @@ software: ''
 version: 3
 last_tested: 2017-01-01
 steps:
-  - title: Cyflwyniad
-  - title: Gosod eich amserydd
-  - title: Dechrau a stopio eich amserydd
-  - title: 'Her: Cyfrif i lawr'
+- title: Cyflwyniad
+  completion: engaged
+- title: Gosod eich amserydd
+- title: Dechrau a stopio eich amserydd
+  completion: internal
+- title: 'Her: Cyfrif i lawr'
