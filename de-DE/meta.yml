@@ -17,7 +17,10 @@ software: ''
 version: 3.0.1
 last_tested: 2019-02-28
 steps:
-  - title: Einleitung
-  - title: Timer einstellen
-  - title: Timer starten und anhalten
-  - title: 'Herausforderung: Herunterzählen'
+- title: Einleitung
+- title: Timer einstellen
+- title: Timer starten und anhalten
+  completion:
+  - engaged
+  - internal
+- title: 'Herausforderung: Herunterzählen'

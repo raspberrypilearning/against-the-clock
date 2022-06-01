@@ -17,7 +17,10 @@ software: ''
 version: 3.0.1
 last_tested: 2019-02-28
 steps:
-  - title: परिचय
-  - title: अपना टाइमर सेट अप करना
-  - title: अपने टाइमर को शुरू करना और रोकना
-  - title: 'चुनौती: काउंट डाउन करना'
+- title: परिचय
+- title: अपना टाइमर सेट अप करना
+- title: अपने टाइमर को शुरू करना और रोकना
+  completion:
+  - engaged
+  - internal
+- title: 'चुनौती: काउंट डाउन करना'

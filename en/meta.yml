@@ -16,8 +16,11 @@ hardware: microbit
 software: ''
 version: 3.0.1
 last_tested: 2019-02-28
-steps: 
+steps:
 - title: Introduction
 - title: Setting up your timer
 - title: Starting and stopping your timer
+  completion:
+  - engaged
+  - internal
 - title: 'Challenge: Counting Down'
