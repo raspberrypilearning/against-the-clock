@@ -18,8 +18,9 @@ version: 3.0.1
 last_tested: 2019-02-28
 steps:
 - title: ಪರಿಚಯ
-  completion: engaged
 - title: ನಿಮ್ಮ ಟೈಂರನ್ನು ಹೊಂದಿಸುವುದು
 - title: ನಿಮ್ಮ ಟೈಮರನ್ನು ಪ್ರಾರಂಭಿಸುವುದು ಮತ್ತು ನಿಲ್ಲಿಸುವುದು
-  completion: internal
+  completion:
+  - engaged
+  - internal
 - title: 'ಚಾಲೆಂಜ್: ಕೌಂಟ್ಡೌನ್ ಮಾಡಿ'

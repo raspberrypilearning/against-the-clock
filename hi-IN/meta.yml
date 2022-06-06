@@ -18,8 +18,9 @@ version: 3.0.1
 last_tested: 2019-02-28
 steps:
 - title: परिचय
-  completion: engaged
 - title: अपना टाइमर सेट अप करना
 - title: अपने टाइमर को शुरू करना और रोकना
-  completion: internal
+  completion:
+  - engaged
+  - internal
 - title: 'चुनौती: काउंट डाउन करना'

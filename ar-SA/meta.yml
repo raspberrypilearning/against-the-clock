@@ -18,8 +18,9 @@ version: 3.0.1
 last_tested: 2019-02-28
 steps:
 - title: المقدمة
-  completion: engaged
 - title: إعداد المؤقت الخاص بك
 - title: بدء الموقت وإيقافه
-  completion: internal
+  completion:
+  - engaged
+  - internal
 - title: 'التحدي: العد التنازلي'
