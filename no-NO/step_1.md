@@ -4,9 +4,7 @@ You are going to learn how to make a timer, so that you can use it to challenge 
 
 **Instructions**: If you're reading this online, press **A+B** on the micro:bit below to set your timer to 0, **A** to start your timer, and **B** to stop it.
 
-<div class="trinket" style="width:400px;margin: 0 auto;">
-<div style="position:relative;height:0;padding-bottom:81.97%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---run?id=_iRqcVkfXiffq" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-scripts allow-same-origin" frameborder="0"></iframe></div>
-</div>
+<div style="position:relative;height:0;padding-bottom:125%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---run?id=_iRqcVkfXiffq" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-scripts allow-same-origin" frameborder="0"></iframe></div>
 
 ### Additional information for club leaders
 
