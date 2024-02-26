@@ -4,9 +4,7 @@ Du wirst lernen, wie du einen Timer erstellst, damit du deine Freunde herausford
 
 **Anleitung**: Wenn du diesen Text online liest, drücke **A+B** auf dem folgenden micro:bit um deinen Timer auf 0 zu stellen, **A** um deinen Timer zu starten, und **B** um ihn anzuhalten.
 
-<div class="trinket" style="width:400px;margin: 0 auto;">
-<div style="position:relative;height:0;padding-bottom:81.97%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---run?id=_iRqcVkfXiffq" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-scripts allow-same-origin" frameborder="0"></iframe></div>
-</div>
+<div style="position:relative;height:0;padding-bottom:125%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---run?id=_iRqcVkfXiffq" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-scripts allow-same-origin" frameborder="0"></iframe></div>
 
 ### Zusätzliche Information für Clubleiter
 
