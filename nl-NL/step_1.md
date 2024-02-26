@@ -4,9 +4,7 @@ Je gaat leren hoe je een timer kunt maken, zodat je deze kunt gebruiken om je vr
 
 **Instructies**: Als je dit online leest, druk dan op **A+B** op de micro:bit hieronder om je timer op 0 te zetten, **A** om je timer te starten, en **B** om het te stoppen.
 
-<div class="trinket" style="width:400px;margin: 0 auto;">
-<div style="position:relative;height:0;padding-bottom:81.97%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---run?id=_iRqcVkfXiffq" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-scripts allow-same-origin" frameborder="0"></iframe></div>
-</div>
+<div style="position:relative;height:0;padding-bottom:125%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---run?id=_iRqcVkfXiffq" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-scripts allow-same-origin" frameborder="0"></iframe></div>
 
 ### Aanvullende informatie voor clubleiders
 
