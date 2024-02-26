@@ -23,5 +23,8 @@ steps:
     title: إعداد المؤقت الخاص بك
   - 
     title: بدء الموقت وإيقافه
+    completion:
+      - engaged
+      - internal
   - 
     title: 'التحدي: العد التنازلي'
