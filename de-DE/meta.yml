@@ -23,5 +23,8 @@ steps:
     title: Timer einstellen
   - 
     title: Timer starten und anhalten
+    completion:
+      - engaged
+      - internal
   - 
     title: 'Herausforderung: Herunterzählen'
