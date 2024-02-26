@@ -1,29 +1,29 @@
-## Setting up your timer
+## Ρύθμισε τον χρονόμετρό σου
 
-Let's set your timer to 0 when buttons A and B are pressed together.
+Ας ρυθμίσουμε το χρονόμετρό σου στο 0 όταν τα κουμπιά A και B πατηθούν μαζί.
 
-+ Go to <a href="http://rpf.io/microbit-new" target="_blank">rpf.io/microbit-new</a> to start a new project in the MakeCode (PXT) editor. Name your project 'Timer'.
++ Πήγαινε στο <a href="http://rpf.io/microbit-new" target="_blank">rpf.io/microbit-new</a> για να ξεκινήσεις ένα νέο έργο στον επεξεργαστή MakeCode (PXT). Ονόμασε το έργο σου 'Χρονόμετρο'.
 
-+ Delete the `on start` and `forever` blocks, as you don't need them.
++ Διάγραψε τα μπλοκ `κατά την έναρξη` και `για πάντα`, καθώς δεν τα χρειάζεσαι.
 
-+ Add a new `on button pressed event` and select `A+B`:.
++ Πρόσθεσε ένα νέο `συμβάν όταν πιεστεί το πλήκτρο ` και επίλεξε `A+B`:.
     
-    ![screenshot](images/clock-a-b.png)
+    ![στιγμιότυπο οθόνης](images/clock-a-b.png)
 
-+ Click the 'Variables' then 'Make a variable', and create a new variable called `time`.
++ Κάνε κλικ στις 'Μεταβλητές' και μετά στη 'Δημιουργία μεταβλητής', και δημιούργησε μια νέα μεταβλητή που ονομάζεται `χρόνος`.
     
-    ![screenshot](images/clock-var-time.png)
+    ![στιγμιότυπο οθόνης](images/clock-var-time.png)
 
-+ When buttons A and B are pressed together, you want the `time` to be set to `0`. To do this, drag a `set` block into your `on button A+B pressed` block:
++ Όταν τα κουμπιά A και B πιέζονται μαζί, θέλεις ο `χρόνος` να πάρει την τιμή `0`. Για να γίνει αυτό, κάνε κλικ και σύρε ένα μπλοκ `ορισμός σε` μέσα στο μπλοκ `όταν πιεστεί το κουμπί button A+B`:
     
-    ![screenshot](images/clock-reset-1.png)
+    ![στιγμιότυπο οθόνης](images/clock-reset-1.png)
 
-The default value of zero is what you need.
+Χρειάζεσαι το μηδέν ως προεπιλεγμένη τιμή.
 
-+ You should also display the `time`. To do this, drag in a `show number` block and drag your `time` variable into it:
++ Ο `χρόνος` επίσης πρέπει να εμφανιστεί. Για να το κάνεις αυτό, σύρε σε ένα μπλοκ `εμφάνισε αριθμό` και σύρε τη μεταβλητή `χρόνος` μέσα σ' αυτό:
     
-    ![screenshot](images/clock-reset-show.png)
+    ![στιγμιότυπο οθόνης](images/clock-reset-show.png)
 
-+ Click 'run' to test your code. Press the 'A+B' button (below the micro:bit) to set your timer to 0.
++ Πάτησε «Run (Έναρξη προσομοιωτή)» για να ελέγξεις τον κώδικά σου. Πατήσε το κουμπί 'A+B' (κάτω από το micro:bit) για να ρυθμίσεις το χρονόμετρο σου στο 0.
     
-    ![screenshot](images/clock-test-reset.png)
+    ![στιγμιότυπο οθόνης](images/clock-test-reset.png)
