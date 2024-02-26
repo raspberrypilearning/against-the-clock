@@ -23,5 +23,8 @@ steps:
     title: Configura tu cronómetro
   - 
     title: Iniciar y detener el cronómetro
+    completion:
+      - engaged
+      - internal
   - 
     title: 'Desafío: Cuenta regresiva'
