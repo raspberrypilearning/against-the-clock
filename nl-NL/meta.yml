@@ -23,5 +23,8 @@ steps:
     title: Je timer instellen
   - 
     title: Je timer starten en stoppen
+    completion:
+      - engaged
+      - internal
   - 
     title: 'Uitdaging: aftellen'
