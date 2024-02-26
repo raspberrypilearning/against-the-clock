@@ -23,5 +23,8 @@ steps:
     title: Configurer ton chronomètre
   - 
     title: Démarrer et arrêter ton chronomètre
+    completion:
+      - engaged
+      - internal
   - 
     title: 'Défi : Compte à rebours'
