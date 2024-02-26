@@ -23,5 +23,8 @@ steps:
     title: Gosod eich amserydd
   - 
     title: Dechrau a stopio'ch amserydd
+    completion:
+      - engaged
+      - internal
   - 
     title: 'Her: Cyfrif i lawr'
