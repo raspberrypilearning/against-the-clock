@@ -23,5 +23,8 @@ steps:
     title: Setting up your timer
   - 
     title: Starting and stopping your timer
+    completion:
+      - engaged
+      - internal
   - 
     title: 'Challenge: Counting Down'
